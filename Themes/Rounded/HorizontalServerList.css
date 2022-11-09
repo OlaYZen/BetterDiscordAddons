@@ -234,7 +234,7 @@
 #app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
   width: var(--server-size);
   left: 50%;
-  border-radius: 10px;
+  border-radius: 50vh;
   transform: translateX(-50%);
   height: 100%;
 }
