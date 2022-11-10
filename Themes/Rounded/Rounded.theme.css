@@ -910,8 +910,8 @@
   }
   
   .avatar-3mTjvZ {
-    background-color: transparent;
-    border: 0
+    background-color: transparent !important;
+    border: 0 !important;
     
   }
   
