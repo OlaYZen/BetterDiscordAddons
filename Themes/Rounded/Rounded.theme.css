@@ -645,6 +645,8 @@
 
 .mainCard-3KBsBI {
     border-radius: 3vh;
+    background-color: var(--background-secondary);
+
 }
 
 .reaction-102jx9 {
@@ -830,4 +832,8 @@
 
 .dividerDefault-3C2-ws {
   display: none;
+}
+
+.theme-dark .container-3wLKDe {
+    background-color: var(--background-primary);
 }
