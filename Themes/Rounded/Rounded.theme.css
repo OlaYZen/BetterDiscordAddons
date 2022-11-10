@@ -838,3 +838,103 @@
 .theme-dark .container-3wLKDe {
     background-color: var(--background-primary);
 }
+
+.accountProfileCard-lbN7n->.settingsBanner-1eDJ5w.bannerPremium-kkSkPv {
+    visibility: hidden;
+  }
+  
+  .accountProfileCard-lbN7n- {
+    background-color: var(--background-tertiary);
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .background-3d_SjE {
+    border-radius: 8px;
+    background-color: var(--background-secondary);
+    padding: 16px;
+    margin: 8px 16px 16px;
+  }
+  
+  .standardSidebarView-E9Pc3j, .standardSidebarView-E9Pc3j * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .children-1xdcWE, .sectionTitle-3j2YI1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .children-1xdcWE {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  a, button, div, input, label, select, span, strong, textarea {
+    outline: 0;
+  }
+  
+  .accountProfileCard-lbN7n->.settingsBanner-1eDJ5w.bannerPremium-kkSkPv {
+    visibility: hidden;
+  }
+  .accountProfileCard-lbN7n->.settingsBanner-1eDJ5w.bannerPremium-kkSkPv {
+    visibility: hidden;
+  }
+  
+  .accountProfileCard-lbN7n->.settingsBanner-1eDJ5w.bannerPremium-kkSkPv:before, .accountProfileCard-lbN7n->.settingsBanner-1eDJ5w.bannerPremium-kkSkPv:after {
+    width: inherit;
+    visibility: visible;
+    height: 500px;
+  }
+  .banner-2boKnS:after, .banner-1YaD3N:after, .bannerNormal-22rPhb:after, .bannerUploaderInnerSquare-1ddxpx:after, [class^=bannerNitroUpsell] {
+    background-image: inherit !important;
+    background-color: inherit !important;
+    --mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.32) 80%, rgba(0, 0, 0, 0.16) 84%, rgba(0, 0, 0, 0.08) 88%, rgba(0, 0, 0, 0.04) 92%, rgba(0, 0, 0, 0.02) 96%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: var(--mask-image);
+    mask-image: var(--mask-image);
+    height: 136px;
+    width: 100%;
+    pointer-events: none;
+    visibility: visible;
+  }
+  .banner-2boKnS:after, .banner-2boKnS:before, .banner-1YaD3N:after, .banner-1YaD3N:before, .bannerNormal-22rPhb:after, .bannerNormal-22rPhb:before, .bannerUploaderInnerSquare-1ddxpx:after, .bannerUploaderInnerSquare-1ddxpx:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+  }
+  
+  .avatar-3mTjvZ {
+    background-color: transparent;
+    
+  }
+  
+  .background-3d_SjE {
+    border-radius: 8px;
+    background-color: var(--background-secondary);
+    padding: 16px;
+    margin: 8px 16px 16px;
+  }
+  
+  .background-3d_SjE, .popoutInfo-pKbpvG, .userInfo-regn9W {
+    position: relative;
+  }
+  
+  .accountProfileCard-lbN7n- .avatar-3mTjvZ {
+    width: 80px !important;
+    height: 80px !important;
+    top: -10px !important;
+  }
+  
+  .previewMessage-2g_aBv {
+    border-radius: 3vh;
+  }
+  
+  .textBadge-1fdDPJ{
+    border-radius: 3vh !important; 
+  }
