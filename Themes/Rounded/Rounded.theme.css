@@ -564,3 +564,95 @@
 #app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
     border-radius: 50vh;
 }
+
+
+/* Main Chat Color */
+.chat-2ZfjoI {
+    background: black;
+}
+
+.wrapper-3HVHpV {
+    background-color: #000000;
+}
+
+.wrapper-15CKyy {
+    background-color: #000000;
+}
+
+
+
+/* DM Color */
+.scroller-WSmht3 {
+    background-color: #1f1f1f;
+}
+
+.sidebar-1tnWFu {
+    background: #1f1f1f;
+}
+
+.privateChannels-oVe7HL {
+    background-color: #820294;
+}
+
+
+
+
+
+
+
+
+.channelTextArea-1FufC0 {
+    background-color: transparent;
+}
+
+.theme-dark .form-3gdLxP:before {
+    background-color: transparent;
+}
+
+.theme-dark .children-3xh0VB:after {
+    background-color: transparent;
+}
+
+
+
+
+.scrollableContainer-15eg7h {
+    background-color: #1f1f1f;
+}
+
+.panels-3wFtMD {
+    background-color: #1b1b1b;
+}
+
+/* Topbar Color */
+.bg-1QIAus {
+    background-color: black;
+}
+
+/* Folder Color */
+.scroller-3X7KbA {
+    background-color: #272727;
+}
+
+/* Hover over text Buttons */
+.wrapper-2vIMkT {
+    background-color: #1b1b1b;
+}
+
+
+/* Date Devider */
+
+.content-3spvdd {
+    color: #ffffff;
+    background: #1f1f1f;
+}
+
+.divider-2rZFJK {
+    border-top: thin solid #1f1f1f;
+}
+
+/* Scrollwheel*/
+.scroller-kQBbkU .auto-2K3UW5 .scrollerBase-_bVAAt .disableScrollAnchor-6TwzvM .managedReactiveScroller-1lEEh3{
+    color: red;
+    background-color: pink;
+}
