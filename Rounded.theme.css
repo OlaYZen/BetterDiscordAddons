@@ -22,36 +22,37 @@
   --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
   --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
   --badges-everywhere-size: 15px; /*default = 15px*/
-  --darkplus-sec: #300268;
 }
 
+
+
 .theme-dark {
-  --header-primary: var(--white-500);
-  --header-secondary: var(--primary-dark-300);
-  --text-normal: var(--primary-dark-200);
-  --text-muted: var(--primary-dark-330);
-  --text-link: var(--link-500);
-  --text-link-low-saturation: var(--link-low-saturation-500);
-  --text-positive: var(--status-green-560);
-  --text-warning: var(--status-yellow-500);
-  --text-danger: var(--status-red-360);
+  --header-primary: white;
+  --header-secondary: #898989;
+  --text-normal: #ffffff;
+  --text-muted: rgb(234, 234, 234);
+  --text-link: rgb(121, 180, 247);
+  --text-link-low-saturation: rgb(121, 180, 247);
+  --text-positive: rgb(0, 255, 0);
+  --text-warning: yellow;
+  --text-danger: red;
   --text-brand: var(--brand-360);
-  --interactive-normal: var(--primary-dark-300);
-  --interactive-hover: var(--primary-dark-200);
-  --interactive-active: var(--white-500);
-  --interactive-muted: var(--primary-dark-500);
-  --background-primary: var(--primary-dark-600);
-  --background-secondary: var(--primary-dark-630);
-  --background-secondary-alt: var(--primary-dark-660);
-  --background-tertiary: var(--primary-dark-700);
-  --background-accent: var(--primary-dark-500);
-  --background-floating: var(--primary-dark-800);
-  --background-nested-floating: var(--primary-dark-630);
-  --background-mobile-primary: var(--primary-dark-600);
-  --background-mobile-secondary: var(--primary-dark-630);
-  --chat-background: var(--primary-dark-600);
-  --chat-border: var(--primary-dark-700);
-  --chat-input-container-background: var(--primary-dark-600);
+  --interactive-normal: #ffffff;
+  --interactive-hover: rgb(255, 255, 255);
+  --interactive-active: white;
+  --interactive-muted: gray;
+  --background-primary: #000000;
+  --background-secondary: #1f1f1f;
+  --background-secondary-alt: #121212;
+  --background-tertiary: #272727;
+  --background-accent: rgb(56, 56, 56);
+  --background-floating: black;
+  --background-nested-floating: red;
+  --background-mobile-primary: red;
+  --background-mobile-secondary: red;
+  --chat-background: red;
+  --chat-border: red;
+  --chat-input-container-background: red;
   --background-modifier-hover: rgba(var(--primary-dark-500-rgb),0.4);
   --background-modifier-active: rgba(var(--primary-dark-500-rgb),0.48);
   --background-modifier-selected: rgba(var(--primary-dark-500-rgb),0.6);
@@ -125,14 +126,14 @@
   --button-outline-primary-background-active: var(--primary-dark-430);
   --button-outline-primary-text-active: var(--white-500);
   --button-outline-primary-border-active: var(--primary-dark-430);
-  --modal-background: var(--primary-dark-600);
-  --modal-footer-background: var(--primary-dark-630);
-  --scrollbar-thin-thumb: var(--primary-dark-700);
-  --scrollbar-thin-track: rgba(var(--black-500-rgb),0);
-  --scrollbar-auto-thumb: var(--primary-dark-700);
-  --scrollbar-auto-track: var(--status-grey-700);
-  --scrollbar-auto-scrollbar-color-thumb: var(--primary-dark-700);
-  --scrollbar-auto-scrollbar-color-track: var(--primary-dark-630);
+  --modal-background: black;
+  --modal-footer-background: #1f1f1f;
+  --scrollbar-thin-thumb: #ffffff;
+  --scrollbar-thin-track: #1f1f1f;
+  --scrollbar-auto-thumb: #ffffff;
+  --scrollbar-auto-track: #1f1f1f;
+  --scrollbar-auto-scrollbar-color-thumb: #ffffff;
+  --scrollbar-auto-scrollbar-color-track: #1f1f1f;
   --input-background: var(--primary-dark-700);
   --input-placeholder-text: var(--input-placeholder-text-dark);
   --logo-primary: var(--white-500);
@@ -149,7 +150,7 @@
   --channels-default: var(--primary-dark-345);
   --channel-icon: var(--primary-dark-360);
   --channel-text-area-placeholder: var(--primary-dark-400);
-  --channeltextarea-background: var(--primary-dark-560);
+  --channeltextarea-background: #1f1f1f;
   --activity-card-background: var(--primary-dark-700);
   --textbox-markdown-syntax: var(--primary-dark-360);
   --spoiler-revealed-background: var(--primary-dark-660);
