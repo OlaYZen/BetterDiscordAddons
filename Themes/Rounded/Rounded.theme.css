@@ -347,7 +347,11 @@
 }
 
 .cozy-VmLDNB .timestamp-p1Df1m .edited-1v5nT8{
-    color: rgba(255, 0, 0, 0.912);
+    color: rgb(255, 0, 0);
+}
+
+.cozy-VmLDNB .timestamp-p1Df1m {
+    color: rgba(234, 234, 234, 0.761);
 }
 
 .textContainer-36wgKK{
