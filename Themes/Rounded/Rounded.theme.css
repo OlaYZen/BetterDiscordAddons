@@ -545,10 +545,22 @@
     border-radius: 3vh;
 }
 
-element.style {
+.baseShapeRound-3epLEv .element.style {
     border-radius: 3vh;
 }
 
 .px-MnE_OR.botTag-7aX5WZ {
     border-radius: 3vh;
+}
+
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] .button-Jt-tIg {
+    font-size: 10px;
+}
+
+.childWrapper-1j_1ub {
+    background-color: transparent;
+}
+
+#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+    border-radius: 50vh;
 }
