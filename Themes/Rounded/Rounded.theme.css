@@ -1,5 +1,13 @@
 :root {
-
+    --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+    --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+    --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
+    --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
+    --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
+    --badges-everywhere-size: 15px; /*default = 15px*/
+    --darkplus-bg: black;
+    --darkplus-bg2: #272727;
+    --darkplus-sec: #300268;
 }
 
 .content-1gYQeQ {
@@ -652,7 +660,72 @@
 }
 
 /* Scrollwheel*/
-.scroller-kQBbkU .auto-2K3UW5 .scrollerBase-_bVAAt .disableScrollAnchor-6TwzvM .managedReactiveScroller-1lEEh3{
-    color: red;
-    background-color: pink;
-}
+.scrollerInner-2PPAp2 {
+    background-color: var(--darkplus-bg);
+  }
+  
+  .scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN {
+    background-color: var(--darkplus-bg);
+  }
+  
+  .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h {
+    max-height: 45vh;
+    background-color: var(--darkplus-bg2);
+    border-radius: 22px;
+  }
+  
+  .scroller-kQBbkU {
+    background-color: var(--darkplus-bg);
+  }
+  
+  .peopleList-2VBrVI.auto-2K3UW5.scrollerBase-_bVAAt {
+    background-color: var(--darkplus-bg);
+  }
+  
+  .scroller-2XLwLg {
+    background-color: var(--darkplus-bg);
+  }
+  
+  .scroller-1TOeMq {
+    background-color: var(--darkplus-bg);
+  }
+  
+  .sidebarRegionScroller-FXiQOh {
+    background-color: var(--darkplus-bg);
+  }
+  
+  .infoScroller-1QMpon.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN {
+    background-color: var(--darkplus-bg2);
+  }
+  
+  #permissions-modal-wrapper .perm-scroller .perm-name {
+    color: var(--darkplus-sec);
+  }
+  
+  .thin-31rlnD.scrollerBase-_bVAAt {
+    background-color: var(--darkplus-bg);
+  }
+  
+  .scroller-3j5xK2 {
+    background-color: var(--darkplus-bg);
+  }
+  
+  .scrollableContainer-15eg7h {
+    background-color: var(--darkplus-bg2);
+  }
+  
+  .scroller-29cQFV {
+    background-color: var(--darkplus-bg);
+  }
+  
+  .scroller-3X7KbA {
+    background-color: var(--darkplus-bg) !important;
+  }
+  
+  .scroller-kQBbkU {
+    background-color: var(--darkplus-bg);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--darkplus-sec) !important;
+  }
