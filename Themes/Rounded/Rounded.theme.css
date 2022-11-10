@@ -5,9 +5,6 @@
     --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
     --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
     --badges-everywhere-size: 15px; /*default = 15px*/
-    --darkplus-bg: black;
-    --darkplus-bg2: #272727;
-    --darkplus-sec: #300268;
 }
 
 .content-1gYQeQ {
@@ -351,10 +348,6 @@
 
 .cozy-VmLDNB .timestamp-p1Df1m .edited-1v5nT8{
     color: rgba(255, 0, 0, 0.912);
-}
-
-.cozy-VmLDNB .timestamp-p1Df1m {
-    color: rgba(234, 234, 234, 0.912);
 }
 
 .textContainer-36wgKK{
