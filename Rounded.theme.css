@@ -13,6 +13,7 @@
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css"); /* Horizontal Server List thanks to Gibbu */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css"); /* EmojiReplacer thanks to Devilbro */
 @import url('https://mr-miner1.github.io/Better-Badges/src/badges.css'); /* Better Badges thanks to mr_miner */
+@import url('https://devevil99.github.io/devevil/BetterDiscordAddons/Theme/Dark+/Dark+.theme.css');
 @import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Rounded.theme.css');
 
 :root {
@@ -22,5 +23,8 @@
   --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
   --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
   --badges-everywhere-size: 15px; /*default = 15px*/
+  --darkplus-bg: black;
+  --darkplus-bg2: #272727;
+  --darkplus-sec: #300268;
 }
 
