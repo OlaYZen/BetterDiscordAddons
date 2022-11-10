@@ -948,3 +948,14 @@ a, button, div, input, label, select, span, strong, textarea {
     color: var(--white-500);
     background-color: var(--background-secondary-alt);
 }
+
+.mention {
+    border-radius: 2vh;
+    padding: 2px 4px;
+    text-align: center;
+}
+
+.theme-dark .wrapper-1ZcZW- {
+    background: #6a7de98f;
+    color: var(--brand-experiment-200);
+}
