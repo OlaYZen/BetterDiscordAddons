@@ -985,3 +985,8 @@ svg:not(:root) {
 .roundedBanner-TdlJGa {
     border-radius: 4px 4px 0 0;
 }
+
+.root-2s1-ri>:last-child {
+    border-bottom-left-radius: 4vh;
+    border-bottom-right-radius: 4vh;
+}
