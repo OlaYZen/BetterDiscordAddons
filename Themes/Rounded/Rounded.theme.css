@@ -982,6 +982,28 @@ svg:not(:root) {
     background-position: 50%;
     background-size: cover;
 }
+
+.slider-32CRPX rect{
+    fill: black;
+}
+
+.slider-32CRPX svg {
+    display: none;
+}
+
+
+.slider-32CRPX{
+    height: 16px;
+}
+
+.accountAddInner-2y9WLL {
+    border-radius: 3vh;
+}
+
+.inner-1lPVFp {
+    border-radius: 3vh
+}
+
 .roundedBanner-TdlJGa {
     border-radius: 4px 4px 0 0;
 }
