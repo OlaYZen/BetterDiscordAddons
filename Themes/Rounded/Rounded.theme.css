@@ -1064,47 +1064,51 @@ foreignObject {
     min-height: 212px;
 }
 .bannerSVGWrapper-qc0szY {
-  z-index: 1;
+    z-index: 1;
 }
 svg:not(:root) {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 foreignObject {
-  display: block;
-  overflow: hidden;
+    display: block;
+    overflow: hidden;
 }
 
 .topSection-1Khgkv>header>.bannerSVGWrapper-qc0szY[viewBox*="212"] {
-  margin-bottom: -40px;
+    margin-bottom: -40px;
 }
 .topSection-1Khgkv>header>.bannerSVGWrapper-qc0szY {
-  height: 100%;
-  max-width: 600px;
-  min-width: 600px !important;
-  z-index: 0;
-  overflow: visible;
-  position: relative;
+    height: 100%;
+    max-width: 600px;
+    min-width: 600px !important;
+    z-index: 0;
+    overflow: visible;
+    position: relative;
 }
 
 [class^="userPopoutInner"]>.bannerSVGWrapper-qc0szY foreignObject, .topSection-1Khgkv>header>.bannerSVGWrapper-qc0szY foreignobject {
-  mask: none;
+    mask: none;
 }
 [class*="WithBanner"] .bannerSVGWrapper-qc0szY foreignObject {
-  transform: translateY(-8px);
-  border-radius: 3vh;
+    transform: translateY(-8px);
+    border-radius: 3vh;
 }
 
 .topSection-1Khgkv {
-  margin-bottom: 60px;
-  z-index: 1;
+    margin-bottom: 60px;
+    z-index: 1;
 }
 
 
 .banner-2boKnS {
-  visibility: hidden;
+    visibility: hidden;
 }
 .profileBannerPremium-3xIFwS {
-  height: 212px;
-  min-height: 212px;
+    height: 212px;
+    min-height: 212px;
+}
+
+.theme-dark .spoilerText-27bIiA.hidden-3B-Rum {
+    background-color: #444444;
 }
