@@ -561,6 +561,7 @@
 
 .tooltip-14MtrL {
     border-radius: 2.5vh;
+
 }
 
 .peopleListItem-u6dGxF.active-2UF8Zh, .peopleListItem-u6dGxF:hover {
@@ -958,4 +959,29 @@ a, button, div, input, label, select, span, strong, textarea {
 .theme-dark .wrapper-1ZcZW- {
     background: #6a7de98f;
     color: var(--brand-experiment-200);
+}
+
+.container-20TyK0 {
+    border-radius: 3vh;
+}
+
+.bannerSVGWrapper-qc0szY {
+    z-index: 1;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.popoutBannerPremium-2RvDNZ {
+    height: 120px;
+    min-height: 120px;
+}
+.bannerPremium-86naOf {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.roundedBanner-TdlJGa {
+    border-radius: 4px 4px 0 0;
 }
