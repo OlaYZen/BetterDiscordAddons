@@ -15,6 +15,9 @@
 @import url('https://mr-miner1.github.io/Better-Badges/src/badges.css'); /* Better Badges thanks to mr_miner */
 @import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Rounded.theme.css');
 
+/* Comment the import under to still see the gift button*/
+@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/HideGiftButton.css');
+
 :root {
   --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
   --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
