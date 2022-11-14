@@ -132,11 +132,11 @@
   --modal-background: black;
   --modal-footer-background: #1f1f1f;
   --scrollbar-thin-thumb: #ffffff;
-  --scrollbar-thin-track: #1f1f1f;
+  --scrollbar-thin-track: #272727;
   --scrollbar-auto-thumb: #ffffff;
-  --scrollbar-auto-track: #1f1f1f;
+  --scrollbar-auto-track: #272727;
   --scrollbar-auto-scrollbar-color-thumb: #ffffff;
-  --scrollbar-auto-scrollbar-color-track: #1f1f1f;
+  --scrollbar-auto-scrollbar-color-track: #272727;
   --input-background: var(--primary-dark-700);
   --input-placeholder-text: var(--input-placeholder-text-dark);
   --logo-primary: var(--white-500);
