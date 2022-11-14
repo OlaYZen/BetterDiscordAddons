@@ -1136,3 +1136,347 @@ foreignObject {
     border-radius: 0 5px 5px 0;
     overflow: hidden;
 }
+
+
+.toolbar-3_r2xA>.iconWrapper-2awDjA>svg[style]{
+  display: none !important; 
+}
+
+.buttons-uaqb-5>.button-f2h6uQ>:not(.translateButton-DhP9x8) {
+  display: none;
+}
+
+
+
+
+.message-2CShn3.selected-2LX7Jy, .mouse-mode.full-motion .message-2CShn3:hover {
+  background-color: var(--background-message-hover);
+}
+.message-2CShn3:hover:before {
+  background-color: rgba(255, 255, 255, .01);
+}
+
+.messageListItem-ZZ7v6g:hover .timestamp-p1Df1m, .messageListItem-ZZ7v6g:hover .timestampInline-_lS3aK {
+  opacity: 1;
+}
+
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK) {
+    opacity: 0.2;
+    transition: opacity .175s ease;
+    transition-property: opacity;
+    transition-duration: 0.175s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.bd-toast.icon {
+  padding-left: 30px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
+  margin-right: auto;
+  opacity: 0.4;
+}
+.bd-toast {
+  border-radius: 2vh;
+  margin-right: auto;
+  opacity: 0.4;
+}
+
+
+.qwert-toast {
+  border-radius: 3vh !important;
+}
+
+.qwert-toast-bar {
+  border-radius: 3vh !important;
+}
+
+.compact-2Nkcau.wrapper-30-Nkg, .cozy-VmLDNB.wrapper-30-Nkg {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+@font-face{
+  font-family: "LogoFont";
+  src: url("https://speakmore.olayzen.lol/fonts/DXLBaB-KSCpc-EUC-H.ttf") format("truetype");
+}
+
+.cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
+  border-radius: 15vh !important;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-2g-os5 {
+  border-radius: 5vh;
+}
+
+.searchBox-pyIJJj {
+  border-radius: 5vh;
+}
+
+.card-2TuZPZ {
+  border-radius: 25px;
+}
+
+.sidebar-1tnWFu {
+  background: var(--background-tertiary);
+}
+
+.theme-dark .pageWrapper-2PwDoS{
+  border-radius: 3vh 0 0 0;
+}
+.headerImage-2D5D-v {
+  border-radius: 25px;
+}
+
+.scroller-WSmht3 {
+  background-color: var(--background-tertiary);
+}
+
+.thin-31rlnD, .thin-31rlnD.fade-1R6FHN:hover, .thin-31rlnD.scrolling-20Of9p {
+  scrollbar-color: var(--scrollbar-thin-thumb) var(--scrollbar-thin-track);
+}
+
+.privateChannels-oVe7HL {
+  background-color: var(--background-tertiary);
+}
+
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+  background-color: var(--background-secondary);
+}
+
+.chat-2ZfjoI{
+  border-radius: 25px 0 0 0;
+}.toolbar-3_r2xA>.iconWrapper-2awDjA>svg[style]{
+    display: none !important; 
+  }
+  
+  .buttons-uaqb-5>.button-f2h6uQ>:not(.translateButton-DhP9x8) {
+    display: none;
+  }
+  
+  
+  
+  
+  .message-2CShn3.selected-2LX7Jy, .mouse-mode.full-motion .message-2CShn3:hover {
+    background-color: var(--background-message-hover);
+  }
+  .message-2CShn3:hover:before {
+    background-color: rgba(255, 255, 255, .01);
+  }
+  
+  .messageListItem-ZZ7v6g:hover .timestamp-p1Df1m, .messageListItem-ZZ7v6g:hover .timestampInline-_lS3aK {
+    opacity: 1;
+  }
+  
+  .timestamp-p1Df1m:not(.timestampInline-_lS3aK) {
+      opacity: 0.2;
+      transition: opacity .175s ease;
+      transition-property: opacity;
+      transition-duration: 0.175s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+  }
+  
+  .bd-toast.icon {
+    padding-left: 30px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 6px 50%;
+    margin-right: auto;
+    opacity: 0.4;
+  }
+  .bd-toast {
+    border-radius: 2vh;
+    margin-right: auto;
+    opacity: 0.4;
+  }
+  
+  
+  .qwert-toast {
+    border-radius: 3vh !important;
+  }
+  
+  .qwert-toast-bar {
+    border-radius: 3vh !important;
+  }
+  
+  .compact-2Nkcau.wrapper-30-Nkg, .cozy-VmLDNB.wrapper-30-Nkg {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  
+  @font-face{
+    font-family: "LogoFont";
+    src: url("https://speakmore.olayzen.lol/fonts/DXLBaB-KSCpc-EUC-H.ttf") format("truetype");
+  }
+  
+  .cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
+    border-radius: 15vh !important;
+  }
+  
+  body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .input-2g-os5 {
+    border-radius: 5vh;
+  }
+  
+  .searchBox-pyIJJj {
+    border-radius: 5vh;
+  }
+  
+  .card-2TuZPZ {
+    border-radius: 25px;
+  }
+  
+  .sidebar-1tnWFu {
+    background: var(--background-tertiary);
+  }
+  
+  .theme-dark .pageWrapper-2PwDoS{
+    border-radius: 3vh 0 0 0;
+  }
+  .headerImage-2D5D-v {
+    border-radius: 25px;
+  }
+  
+  .scroller-WSmht3 {
+    background-color: var(--background-tertiary);
+  }
+  
+  .thin-31rlnD, .thin-31rlnD.fade-1R6FHN:hover, .thin-31rlnD.scrolling-20Of9p {
+    scrollbar-color: var(--scrollbar-thin-thumb) var(--scrollbar-thin-track);
+  }
+  
+  .privateChannels-oVe7HL {
+    background-color: var(--background-tertiary);
+  }
+  
+  .searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    background-color: var(--background-secondary);
+  }
+  
+  .chat-2ZfjoI{
+    border-radius: 25px 0 0 0;
+  }
+
+.toolbar-3_r2xA>.iconWrapper-2awDjA>svg[style]{
+  display: none !important; 
+}
+
+.buttons-uaqb-5>.button-f2h6uQ>:not(.translateButton-DhP9x8) {
+  display: none;
+}
+
+
+
+
+.message-2CShn3.selected-2LX7Jy, .mouse-mode.full-motion .message-2CShn3:hover {
+  background-color: var(--background-message-hover);
+}
+.message-2CShn3:hover:before {
+  background-color: rgba(255, 255, 255, .01);
+}
+
+.messageListItem-ZZ7v6g:hover .timestamp-p1Df1m, .messageListItem-ZZ7v6g:hover .timestampInline-_lS3aK {
+  opacity: 1;
+}
+
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK) {
+    opacity: 0.2;
+    transition: opacity .175s ease;
+    transition-property: opacity;
+    transition-duration: 0.175s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.bd-toast.icon {
+  padding-left: 30px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
+  margin-right: auto;
+  opacity: 0.4;
+}
+.bd-toast {
+  border-radius: 2vh;
+  margin-right: auto;
+  opacity: 0.4;
+}
+
+
+.qwert-toast {
+  border-radius: 3vh !important;
+}
+
+.qwert-toast-bar {
+  border-radius: 3vh !important;
+}
+
+.compact-2Nkcau.wrapper-30-Nkg, .cozy-VmLDNB.wrapper-30-Nkg {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+@font-face{
+  font-family: "LogoFont";
+  src: url("https://speakmore.olayzen.lol/fonts/DXLBaB-KSCpc-EUC-H.ttf") format("truetype");
+}
+
+.cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
+  border-radius: 15vh !important;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-2g-os5 {
+  border-radius: 5vh;
+}
+
+.searchBox-pyIJJj {
+  border-radius: 5vh;
+}
+
+.card-2TuZPZ {
+  border-radius: 25px;
+}
+
+.sidebar-1tnWFu {
+  background: var(--background-tertiary);
+}
+
+.theme-dark .pageWrapper-2PwDoS{
+  border-radius: 3vh 0 0 0;
+}
+.headerImage-2D5D-v {
+  border-radius: 25px;
+}
+
+.scroller-WSmht3 {
+  background-color: var(--background-tertiary);
+}
+
+.thin-31rlnD, .thin-31rlnD.fade-1R6FHN:hover, .thin-31rlnD.scrolling-20Of9p {
+  scrollbar-color: var(--scrollbar-thin-thumb) var(--scrollbar-thin-track);
+}
+
+.privateChannels-oVe7HL {
+  background-color: var(--background-tertiary);
+}
+
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+  background-color: var(--background-secondary);
+}
+
+.chat-2ZfjoI{
+  border-radius: 25px 0 0 0;
+}
