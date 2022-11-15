@@ -49,7 +49,7 @@
   --background-secondary-alt: #121212;
   --background-tertiary: #272727;
   --background-accent: rgb(56, 56, 56);
-  --background-floating: rgb(41, 41, 41);
+  --background-floating: #000000;
   --background-nested-floating: red;
   --background-mobile-primary: red;
   --background-mobile-secondary: red;
@@ -130,13 +130,13 @@
   --button-outline-primary-text-active: var(--white-500);
   --button-outline-primary-border-active: var(--primary-dark-430);
   --modal-background: black;
-  --modal-footer-background: #1f1f1f;
+  --modal-footer-background: transparent;
   --scrollbar-thin-thumb: #ffffff;
-  --scrollbar-thin-track: #272727;
+  --scrollbar-thin-track: transparent;
   --scrollbar-auto-thumb: #ffffff;
-  --scrollbar-auto-track: #272727;
+  --scrollbar-auto-track: transparent;
   --scrollbar-auto-scrollbar-color-thumb: #ffffff;
-  --scrollbar-auto-scrollbar-color-track: #272727;
+  --scrollbar-auto-scrollbar-color-track: transparent;
   --input-background: var(--primary-dark-700);
   --input-placeholder-text: var(--input-placeholder-text-dark);
   --logo-primary: var(--white-500);
