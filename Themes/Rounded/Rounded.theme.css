@@ -1721,3 +1721,27 @@ body{
 .members-3WRCEx:hover .membersGroup-2eiWxl {
 	height: 40px;
 }
+
+.customColorPicker-C_jddW {
+  border-radius: 24px;
+}
+.theme-dark .customColorPicker-C_jddW{
+  background-color: var(--background-secondary);
+}
+
+.slider-32CRPX>svg{
+  display: none;
+}
+
+.text-xs-medium-2LRpEj, .text-xs-normal-3SiVjE {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.sidebarRegionScroller-FXiQOh{
+  background-color: var(--background-tertiary);
+}
+
+.theme-dark .pageWrapper-2PwDoS {
+  background-color: var(--background-primary);
+}
