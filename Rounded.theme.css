@@ -18,6 +18,9 @@
 /* Comment the import under to still see the gift button*/
 @import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/HideGiftButton.css');
 
+/*Comment the import under to remove all rainbow text effect*/
+@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Rainbowtext.css');
+
 :root {
   --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
   --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
