@@ -28,12 +28,12 @@
     --background-tertiary: #272727;
     --background-accent: rgb(56, 56, 56);
     --background-floating: #000000;
-    --background-nested-floating: red;
-    --background-mobile-primary: red;
-    --background-mobile-secondary: red;
-    --chat-background: red;
-    --chat-border: red;
-    --chat-input-container-background: red;
+    --background-nested-floating: #272727;
+    --background-mobile-primary: #000000;
+    --background-mobile-secondary: #1f1f1f;
+    --chat-background: #000000;
+    --chat-border: #1f1f1f;
+    --chat-input-container-background: #1f1f1f;
     --background-modifier-hover: rgba(var(--primary-dark-500-rgb),0.4);
     --background-modifier-active: rgba(var(--primary-dark-500-rgb),0.48);
     --background-modifier-selected: rgba(var(--primary-dark-500-rgb),0.6);
@@ -1667,11 +1667,6 @@ body{
     filter: blur(10px);
 }
 
-.iconWrapper-2awDjA.clickable-ZD7xvu>svg>g{
-    visibility: hidden;
-}
-
-
 .chatContent-3KubbW {
 	max-width: calc(100% - 60px);
 }
@@ -1808,3 +1803,20 @@ body{
     border-radius: 24px;
   }
   
+
+.iconWrapper-2awDjA[aria-label="Show User Profile"]{
+    display: none !important;
+}
+
+.description-22_U3B {
+    visibility: hidden;
+    position: relative;
+}
+
+.description-22_U3B:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Pick this option if you are gay";
+}
