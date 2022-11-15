@@ -983,19 +983,6 @@ svg:not(:root) {
     background-size: cover;
 }
 
-.slider-32CRPX rect{
-    fill: black;
-}
-
-.slider-32CRPX svg {
-    display: none;
-}
-
-
-.slider-32CRPX{
-    height: 16px;
-}
-
 .accountAddInner-2y9WLL {
     border-radius: 3vh;
 }
@@ -1484,3 +1471,4 @@ body{
 .container-2cd8Mz, .inviteToolbar-2k2nqz {
     border-radius: 25px 0 0 0;
 }
+
