@@ -1612,64 +1612,64 @@ body{
 }
 
 .container-2nx-BQ.checked-25WXMf>svg{
-  height: 19px;
+    height: 19px;
 }
 
 .container-2nx-BQ.checked-25WXMf>svg>rect{
-  height: 17px;
-  width: 17px;
+    height: 17px;
+    width: 17px;
 }
 
 .messageGroupWrapper-1jf_7C {
-  border-radius: 20px;
+    border-radius: 20px;
 }
 
 .background-3d_SjE {
-  background-color: transparent;
-  backdrop-filter: blur(10px);
-  border: 1px rgba(0, 0, 0, 0.08) solid;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px rgba(0, 0, 0, 0.08) solid;
 }
 .fieldList-in8WkP {
-  background-color: transparent;
-  backdrop-filter: blur(10px);
+    background-color: transparent;
+    backdrop-filter: blur(10px);
 }
 
 .h5-2RwDNl, .label-2bTGzo, .legend-1TXTJO{
-  color: rgba(255, 255, 255, 0.511);
+    color: rgba(255, 255, 255, 0.511);
 }
 
 
 .bd-switch-slider rect{
-  fill: black;
+    fill: black;
 }
 
 .bd-switch-slider svg{
-  display: none;
+    display: none;
 }
 
 .bd-switch input:checked+.bd-switch-body {
-  background-color: #60cdff !important;
+    background-color: #60cdff !important;
 }
 
 .bd-switch input+.bd-switch-body {
-  background-color: #72767d !important;
+    background-color: #72767d !important;
 }
 
 [class*="WithBanner"] .bannerSVGWrapper-qc0szY foreignObject {
-  border-radius: 20px 20px 0 0 !important;
-  filter: blur(0px);
+    border-radius: 20px 20px 0 0 !important;
+    filter: blur(0px);
 }
 
 [class*="WithBanner"] .bannerSVGWrapper-qc0szY foreignobject {
-  transform: translateY(0px);
+    transform: translateY(0px);
 }
 
 .userProfileInner-3F03PX:before{
-  filter: blur(10px);
+    filter: blur(10px);
 }
 
 .iconWrapper-2awDjA.clickable-ZD7xvu>svg>g{
-  visibility: hidden;
+    visibility: hidden;
 }
 
 
@@ -1711,11 +1711,11 @@ body{
 	height: 0;
 	transition-duration: 500ms;
 	transition-property: height;
-  padding: 0;
+    padding: 0;
 }
 
 .membersGroup-2eiWxl {
-  padding: 24px 8px 0 16px;
+    padding: 24px 8px 0 16px;
 }
 
 .members-3WRCEx:hover .membersGroup-2eiWxl {
