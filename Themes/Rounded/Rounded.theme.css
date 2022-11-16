@@ -6380,3 +6380,11 @@ background-color: transparent !important;
 :root{
 --status-green-600: #3ee239;
 }
+
+.item-2OyinQ:last-child {
+  border-radius: 0 25px 25px 0;
+}
+
+.item-2OyinQ:first-child {
+  border-radius: 25px 0 0 25px;
+}
