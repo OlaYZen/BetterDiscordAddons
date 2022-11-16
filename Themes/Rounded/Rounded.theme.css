@@ -5967,3 +5967,82 @@ html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
 .cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
   border-radius: 25px !important;
 }
+
+
+.platform-win .sidebarRegionScroller-FXiQOh::before {
+  width: calc(100% - 16px - (3 * var(--windowcontrol-buttons-width)));
+}
+.sidebarRegionScroller-FXiQOh::before {
+  height: calc(var(--app-windowbar-height) - 8px);
+  transition: 150ms ease-in-out;
+  box-shadow: none;
+  width: calc(100% - 16px);
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  pointer-events: none;
+  -webkit-app-region: drag;
+}
+.sidebarRegionScroller-FXiQOh::after, .sidebarRegionScroller-FXiQOh::before {
+  content: "";
+  display: inline-block;
+  position: fixed;
+}
+
+
+.platform-win .layer-86YKbF {
+  top: 0;
+  padding-top: 0;
+}
+
+
+:root {
+    --sidebar-width: 270px;
+    --server-title-fontsize: 18px;
+    --chat-side-margin: 24px;
+    --usernamebutton-width: var(--username-button-width, 128px);
+    --nameTag-content: "";
+    --app-windowbar-height: var(--server-container);
+    --server-container: calc(var(--server-size) + (2 * var(--server-outer-margin, 14px)));
+    --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
+}
+
+.sidebarRegionScroller-FXiQOh {
+  width: var(--sidebar-width);
+  height: calc(100% - var(--app-windowbar-height));
+}
+
+.sidebarRegionScroller-FXiQOh {
+  width: var(--sidebar-width);
+  height: calc(100% - var(--app-windowbar-height));
+}
+
+
+.sidebarRegion-1VBisG {
+  width: var(--sidebar-width);
+  flex: 1 0 var(--sidebar-width);
+  height: auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.sidebar-nqHbhN {
+  position: absolute;
+  padding: 22px 0 32px 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sidebarRegion-1VBisG:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  backdrop-filter: var(--blur-sidebar);
+  transition: var(--app-focused-transition);
+}
+
+.platform-osx .standardSidebarView-E9Pc3j, .platform-win .standardSidebarView-E9Pc3j {
+  top: 0;
+}
