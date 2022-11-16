@@ -6050,3 +6050,35 @@ html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
 .container-ZMc96U.themed-Hp1KC_ {
     border-radius: 25px !important;
 }
+
+[class^=contentColumn][class*=contentColumnDefault], [class^=contentColumn][class*=contentColumnMinimal] {
+  z-index: 0;
+}
+
+.contentRegion-3HkfJJ {
+  flex: 1 1 100%;
+}
+
+.contentRegion-3HkfJJ {
+  border-radius: 20vh;
+  flex: 1 1 100% !important;
+}
+
+.standardSidebarView-E9Pc3j, .standardSidebarView-E9Pc3j * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.titleBar-1it3bQ, .typeMacOS-3V4xXE.titleBar-1it3bQ, .typeWindows-2-g3UY.titleBar-1it3bQ, html.platform-osx #app-mount .typeMacOS-3V4xXE, html.platform-osx #app-mount .typeWindows-2-g3UY {
+  --frame-gap: -20px !important;
+
+}
+
+#app-mount .guilds-2JjMmN [class*=pill] {
+  top: -36px !important;
+}
+
+#app-mount .guilds-2JjMmN [class*="pill"] span {
+  border-radius: 15px !important;
+}
