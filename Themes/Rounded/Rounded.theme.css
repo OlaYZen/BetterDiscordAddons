@@ -6046,3 +6046,7 @@ html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
 .platform-osx .standardSidebarView-E9Pc3j, .platform-win .standardSidebarView-E9Pc3j {
   top: 0;
 }
+
+.container-ZMc96U.themed-Hp1KC_ {
+    border-radius: 25px !important;
+}
