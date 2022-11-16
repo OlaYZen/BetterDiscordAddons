@@ -160,7 +160,7 @@
 }
 
 :root {
-  --theme-version: "02.01.02 "
+  --theme-version: "02.01.03 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
@@ -6173,9 +6173,9 @@ html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
 
 .platform-win .winButton-3UMjdg {
   position: relative;
-  top: calc(var(--TB-position-top, 0px) - 1px);
+  top: calc(var(--TB-position-top, 21px) - 1px);
   right: var(--TB-position-right, 0px);
-  height: var(--TB-height, 78px);
+  height: var(--TB-height, 18px);
   width: var(--TB-width, 40px);
 }
 
