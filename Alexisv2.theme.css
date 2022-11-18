@@ -8,3 +8,391 @@
   * @source https://github.com/OlaYZen/betterdiscordaddons
   * @website https://olayzen.lol
 */
+
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+
+
+:root{
+  --windark-check1: rgba(255, 255, 255, 0.5442);
+  --windark-toggle-off: rgba(255, 255, 255, 0.786);
+}
+
+
+:root {
+  --status-green-600: #3ee239;
+}
+:root {
+  --sidebar-width: 270px;
+  --server-title-fontsize: 18px;
+  --chat-side-margin: 24px;
+  --usernamebutton-width: var(--username-button-width, 128px);
+  --nameTag-content: "";
+  --app-windowbar-height: var(--server-container);
+  --server-container: calc(var(--server-size) + (2 * var(--server-outer-margin, 14px)));
+  --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
+}
+:root {
+  --settings-top: calc(var(--app-windowbar-height) + 32px);
+}
+:root {
+  --theme-version: "02.01.05 ";
+}
+
+:root {
+  --status-green-600: #3ee239;
+}
+:root {
+  --sidebar-width: 270px;
+  --server-title-fontsize: 18px;
+  --chat-side-margin: 24px;
+  --usernamebutton-width: var(--username-button-width, 128px);
+  --nameTag-content: "";
+  --app-windowbar-height: var(--server-container);
+  --server-container: calc(var(--server-size) + (2 * var(--server-outer-margin, 14px)));
+  --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
+}
+:root {
+  --settings-top: calc(var(--app-windowbar-height) + 32px);
+}
+:root {
+  --theme-version: "02.01.05 ";
+  --icon-back:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z'/%3E%3C/svg%3E");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.theme-dark {
+  --header-primary: var(--white-500);
+  --header-secondary: var(--primary-dark-300);
+  --text-normal: var(--primary-dark-200);
+  --text-muted: var(--primary-dark-330);
+  --text-link: var(--link-500);
+  --text-link-low-saturation: var(--link-low-saturation-500);
+  --text-positive: var(--status-green-560);
+  --text-warning: var(--status-yellow-500);
+  --text-danger: var(--status-red-360);
+  --text-brand: var(--brand-360);
+  --interactive-normal: var(--primary-dark-300);
+  --interactive-hover: var(--primary-dark-200);
+  --interactive-active: var(--white-500);
+  --interactive-muted: var(--primary-dark-500);
+  --background-primary: #2b2b2b;
+  --background-secondary: #202020;
+  --background-secondary-alt: var(--primary-dark-660);
+  --background-tertiary: var(--primary-dark-700);
+  --background-accent: var(--primary-dark-500);
+  --background-floating: var(--primary-dark-800);
+  --background-nested-floating: var(--primary-dark-630);
+  --background-mobile-primary: var(--primary-dark-600);
+  --background-mobile-secondary: var(--primary-dark-630);
+  --chat-background: var(--primary-dark-600);
+  --chat-border: var(--primary-dark-700);
+  --chat-input-container-background: var(--primary-dark-600);
+  --background-modifier-hover: rgba(var(--primary-dark-500-rgb),0.4);
+  --background-modifier-active: rgba(var(--primary-dark-500-rgb),0.48);
+  --background-modifier-selected: rgba(var(--primary-dark-500-rgb),0.6);
+  --background-modifier-accent: rgba(var(--primary-dark-500-rgb),0.48);
+  --info-positive-background: rgba(var(--status-green-600-rgb),0.1);
+  --info-positive-foreground: var(--status-green-600);
+  --info-positive-text: var(--white-500);
+  --info-warning-background: rgba(var(--status-yellow-500-rgb),0.1);
+  --info-warning-foreground: var(--status-yellow-500);
+  --info-warning-text: var(--white-500);
+  --info-danger-background: rgba(var(--status-red-500-rgb),0.1);
+  --info-danger-foreground: var(--status-red-500);
+  --info-danger-text: var(--white-500);
+  --info-help-background: rgba(var(--link-500-rgb),0.1);
+  --info-help-foreground: var(--link-500);
+  --info-help-text: var(--white-500);
+  --status-positive-background: var(--status-green-660);
+  --status-positive-text: var(--white-500);
+  --status-warning-background: var(--status-yellow-500);
+  --status-warning-text: var(--black-500);
+  --status-danger-background: var(--status-red-500);
+  --status-danger-text: var(--white-500);
+  --status-danger: var(--status-red-500);
+  --status-positive: var(--status-green-600);
+  --status-warning: var(--status-yellow-500);
+  --button-danger-background: var(--status-red-530);
+  --button-danger-background-hover: var(--status-red-600);
+  --button-danger-background-active: var(--status-red-630);
+  --button-danger-background-disabled: var(--status-red-530);
+  --button-positive-background: var(--status-green-660);
+  --button-positive-background-hover: var(--status-green-730);
+  --button-positive-background-active: var(--status-green-760);
+  --button-positive-background-disabled: var(--status-green-660);
+  --button-secondary-background: var(--primary-dark-500);
+  --button-secondary-background-hover: var(--primary-dark-430);
+  --button-secondary-background-active: var(--primary-dark-400);
+  --button-secondary-background-disabled: var(--primary-dark-500);
+  --button-outline-danger-text: var(--white-500);
+  --button-outline-danger-border: var(--status-red-500);
+  --button-outline-danger-background: rgba(var(--white-500-rgb),0);
+  --button-outline-danger-background-hover: var(--status-red-530);
+  --button-outline-danger-text-hover: var(--white-500);
+  --button-outline-danger-border-hover: var(--status-red-530);
+  --button-outline-danger-background-active: var(--status-red-560);
+  --button-outline-danger-text-active: var(--white-500);
+  --button-outline-danger-border-active: var(--status-red-530);
+  --button-outline-positive-text: var(--white-500);
+  --button-outline-positive-border: var(--status-green-600);
+  --button-outline-positive-background: rgba(var(--white-500-rgb),0);
+  --button-outline-positive-background-hover: var(--status-green-660);
+  --button-outline-positive-text-hover: var(--white-500);
+  --button-outline-positive-border-hover: var(--status-green-660);
+  --button-outline-positive-background-active: var(--status-green-730);
+  --button-outline-positive-text-active: var(--white-500);
+  --button-outline-positive-border-active: var(--status-green-730);
+  --button-outline-brand-text: var(--white-500);
+  --button-outline-brand-border: var(--brand-500);
+  --button-outline-brand-background: rgba(var(--white-500-rgb),0);
+  --button-outline-brand-background-hover: var(--brand-500);
+  --button-outline-brand-text-hover: var(--white-500);
+  --button-outline-brand-border-hover: var(--brand-500);
+  --button-outline-brand-background-active: var(--brand-560);
+  --button-outline-brand-text-active: var(--white-500);
+  --button-outline-brand-border-active: var(--brand-560);
+  --button-outline-primary-text: var(--white-500);
+  --button-outline-primary-border: var(--primary-dark-500);
+  --button-outline-primary-background: rgba(var(--white-500-rgb),0);
+  --button-outline-primary-background-hover: var(--primary-dark-500);
+  --button-outline-primary-text-hover: var(--white-500);
+  --button-outline-primary-border-hover: var(--primary-dark-500);
+  --button-outline-primary-background-active: var(--primary-dark-430);
+  --button-outline-primary-text-active: var(--white-500);
+  --button-outline-primary-border-active: var(--primary-dark-430);
+  --modal-background: var(--primary-dark-600);
+  --modal-footer-background: var(--primary-dark-630);
+  --scrollbar-thin-thumb: var(--primary-dark-700);
+  --scrollbar-thin-track: rgba(var(--black-500-rgb),0);
+  --scrollbar-auto-thumb: var(--primary-dark-700);
+  --scrollbar-auto-track: var(--status-grey-700);
+  --scrollbar-auto-scrollbar-color-thumb: var(--primary-dark-700);
+  --scrollbar-auto-scrollbar-color-track: var(--primary-dark-630);
+  --input-background: var(--primary-dark-700);
+  --input-placeholder-text: var(--input-placeholder-text-dark);
+  --logo-primary: var(--white-500);
+  --focus-primary: var(--focus-primary-500);
+  --control-brand-foreground: var(--brand-360);
+  --control-brand-foreground-new: var(--brand-new-360);
+  --background-mentioned: rgba(var(--status-yellow-500-rgb),0.1);
+  --background-mentioned-hover: rgba(var(--status-yellow-500-rgb),0.08);
+  --background-message-hover: rgba(var(--primary-dark-900-rgb),0.07);
+  --background-message-automod: rgba(var(--status-red-500-rgb),0.05);
+  --background-message-automod-hover: rgba(var(--status-red-500-rgb),0.1);
+  --background-message-highlight: rgba(var(--brand-360-rgb),0.08);
+  --background-message-highlight-hover: rgba(var(--brand-360-rgb),0.06);
+  --channels-default: var(--primary-dark-345);
+  --channel-icon: var(--primary-dark-360);
+  --channel-text-area-placeholder: var(--primary-dark-400);
+  --channeltextarea-background: var(--primary-dark-560);
+  --activity-card-background: var(--primary-dark-700);
+  --textbox-markdown-syntax: var(--primary-dark-360);
+  --spoiler-revealed-background: var(--primary-dark-660);
+  --spoiler-hidden-background: var(--primary-dark-700);
+  --android-navigation-bar-background: var(--primary-dark-830);
+  --android-ripple: rgba(var(--white-500-rgb),0.07);
+  --deprecated-card-bg: rgba(var(--primary-dark-700-rgb),0.6);
+  --deprecated-card-editable-bg: rgba(var(--primary-dark-700-rgb),0.3);
+  --deprecated-store-bg: var(--primary-dark-600);
+  --deprecated-quickswitcher-input-background: var(--primary-dark-400);
+  --deprecated-quickswitcher-input-placeholder: rgba(var(--white-500-rgb),0.3);
+  --deprecated-text-input-bg: var(--primary-dark-700);
+  --deprecated-text-input-border: rgba(var(--black-500-rgb),0.3);
+  --deprecated-text-input-border-hover: var(--primary-dark-900);
+  --deprecated-text-input-border-disabled: var(--primary-dark-700);
+  --deprecated-text-input-prefix: var(--primary-dark-200);
+}
+
+.theme-dark {
+  --guild-header-text-shadow: 0 1px 1px rgba(var(--black-500-rgb),0.4);
+  --elevation-stroke: 0 0 0 1px rgba(var(--primary-dark-900-rgb),0.15);
+  --elevation-low: 0 1px 0 rgba(var(--primary-dark-900-rgb),0.2),0 1.5px 0 rgba(var(--primary-light-900-rgb),0.05),0 2px 0 rgba(var(--primary-dark-900-rgb),0.05);
+  --elevation-medium: 0 4px 4px rgba(var(--black-500-rgb),0.16);
+  --elevation-high: 0 8px 16px rgba(var(--black-500-rgb),0.24);
+}
+
+.scrollableContainer-15eg7h {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: transparent;
+  max-height: 50vh;
+  border-radius: 0;
+  scrollbar-width: none;
+}
+
+.attachButtonInner-2mwer8,.textArea-2CLwUE{
+  background-color: #414141;
+  
+}
+
+.attachButtonInner-2mwer8{
+  border-radius: 25px ;
+  padding: 10px;
+}
+
+.textArea-2CLwUE{
+  border-radius: 25px ;
+  margin-right: 10px !important;
+}
+
+.buttons-uaqb-5>.button-f2h6uQ>:not(.translateButton-DhP9x8) {
+  display: none;
+}
+
+.buttons-uaqb-5{
+  background-color: #414141;
+  border-radius: 25px;
+  margin-right: 0px !important;
+}
+
+.attachButton-1ijpt9 {
+  margin-left: -30px;
+  margin-right: -6px !important;
+}
+
+.fontSize16Padding-XoMpjI {
+  padding-bottom: 11px;
+  padding-top: 11px;
+  padding-left: 20px;
+}
+
+.container-ZMc96U.themed-Hp1KC_{
+  background: transparent !important; 
+  backdrop-filter: blur(4px);
+  border-bottom: 2px #2b2b2b solid;
+}
+
+
+
+.fontSize16Padding-XoMpjI {
+  padding-bottom: 11px;
+  padding-top: 11px;
+  padding-left: 20px;
+  padding-right: 300px;
+}
+
+.content-1jQy2l,.base-2jDfDU {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  width: 100%;
+}
+
+.scroller-3X7KbA,.wrapper-1_HaEi{
+  background-color: transparent !important;
+}
+
+.sidebarRegionScroller-FXiQOh::after {
+  width: 100%;
+  top: 0px;
+  left: 0;
+  height: var(--app-windowbar-height);
+  background-color: var(--background-tertiary);
+  transition: var(--app-focused-transition);
+  backdrop-filter: var(--blur-header);
+  z-index: 3000;
+  border-bottom: var(--background-modifier-accent) 1px solid;
+}
+
+.sidebarRegionScroller-FXiQOh::after, .sidebarRegionScroller-FXiQOh::before {
+  content: "";
+  display: inline-block;
+  position: fixed;
+}
+
+
+
+.contentRegionScroller-2_GT_N {
+  height: 100%;
+  position: static;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  overflow-x: hidden;
+  background-color: var(--background-secondary);
+}
+
+.contentColumnDefault-3eyv5o>div>div>div{
+  background-color: #2b2b2b;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.contentColumnDefault-3eyv5o>div>div>div>.divider-_0um2u{
+  display: none;
+}
+
+.itemFilled-1cPbtg[aria-checked=true] {
+  background-color: transparent !important;
+}
+
+.itemFilled-1cPbtg {
+  background-color: transparent !important;
+}
+
+.item-2idW98[aria-checked=true]>.radioBar-3w9XY->div>svg>path
+{
+  fill: #60cdff;
+  d: path("M512 512m-469.333333 0a469.333333 469.333333 0 1 0 938.666666 0 469.333333 469.333333 0 1 0-938.666666 0Z");
+
+}
+
+.item-2idW98[aria-checked=true]>.radioBar-3w9XY->div>svg
+{
+  viewBox="0 0 50 50"
+}
+
+.item-2idW98[aria-checked=true]>.radioBar-3w9XY->div>svg>circle
+{
+  fill: #060606;
+}
+
+
+.item-2idW98[aria-checked=true] {
+  color: var(--interactive-active) !important;
+}
+.item-2idW98 {
+  color: var(--interactive-normal) !important;
+}
