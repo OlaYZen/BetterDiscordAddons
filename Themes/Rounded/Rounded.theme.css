@@ -160,7 +160,7 @@
 }
 
 :root {
-  --theme-version: "02.01.10 "
+  --theme-version: "02.01.11 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
@@ -581,9 +581,6 @@
     border-radius: 2.5vh;
 }
 
-.roundedBanner-TdlJGa {
-    border-radius: 2.5vh 2.5vh 0 0;
-}
 
 .image-36HiZc, .modal-3Crloo {
     border-radius: 0;
@@ -909,11 +906,6 @@ svg:not(:root) {
     height: 120px;
     min-height: 120px;
 }
-.bannerPremium-86naOf {
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: cover;
-}
 
 .accountAddInner-2y9WLL {
     border-radius: 3vh;
@@ -921,10 +913,6 @@ svg:not(:root) {
 
 .inner-1lPVFp {
     border-radius: 3vh
-}
-
-.roundedBanner-TdlJGa {
-    border-radius: 4px 4px 0 0;
 }
 
 .root-2s1-ri>:last-child {
@@ -975,9 +963,7 @@ foreignObject {
     top: 10px !important;
     border-radius: 3vh !important;
 }
-.banner-2boKnS {
-    visibility: hidden;
-}
+
 .profileBannerPremium-3xIFwS {
     height: 212px;
     min-height: 212px;
@@ -1019,10 +1005,6 @@ foreignObject {
     z-index: 1;
 }
 
-
-.banner-2boKnS {
-    visibility: hidden;
-}
 .profileBannerPremium-3xIFwS {
     height: 212px;
     min-height: 212px;
@@ -6436,4 +6418,9 @@ div[aria-label="Servers"]{
 .anchor-1MIwyf {
   color: rgb(152 200 255);
   text-decoration: var(--link-decoration);
+}
+
+[class*="WithBanner"] .bannerSVGWrapper-qc0szY foreignObject {
+  border-radius: 14px 14px 0 0 !important;
+  filter: blur(0px);
 }
