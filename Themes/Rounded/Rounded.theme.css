@@ -887,10 +887,6 @@
     margin: 8px 16px 16px;
 }
 
-.standardSidebarView-E9Pc3j, .standardSidebarView-E9Pc3j * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
 .children-1xdcWE, .sectionTitle-3j2YI1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -902,58 +898,12 @@
     -ms-flex-direction: column;
     flex-direction: column;
 }
-a, button, div, input, label, select, span, strong, textarea {
-    outline: 0;
-}
 
-.accountProfileCard-lbN7n->.settingsBanner-1eDJ5w.bannerPremium-kkSkPv {
-    visibility: hidden;
-}
-.accountProfileCard-lbN7n->.settingsBanner-1eDJ5w.bannerPremium-kkSkPv {
-    visibility: hidden;
-}
-
-.accountProfileCard-lbN7n->.settingsBanner-1eDJ5w.bannerPremium-kkSkPv:before, .accountProfileCard-lbN7n->.settingsBanner-1eDJ5w.bannerPremium-kkSkPv:after {
-    width: inherit;
-    visibility: visible;
-    height: 500px;
-}
-.banner-2boKnS:after, .banner-1YaD3N:after, .bannerNormal-22rPhb:after, .bannerUploaderInnerSquare-1ddxpx:after, [class^=bannerNitroUpsell] {
-    background-image: inherit !important;
-    background-color: inherit !important;
-    --mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.32) 80%, rgba(0, 0, 0, 0.16) 84%, rgba(0, 0, 0, 0.08) 88%, rgba(0, 0, 0, 0.04) 92%, rgba(0, 0, 0, 0.02) 96%, rgba(0, 0, 0, 0) 100%);
-    -webkit-mask-image: var(--mask-image);
-    mask-image: var(--mask-image);
-    height: 136px;
-    width: 100%;
-    pointer-events: none;
-    visibility: visible;
-}
-.banner-2boKnS:after, .banner-2boKnS:before, .banner-1YaD3N:after, .banner-1YaD3N:before, .bannerNormal-22rPhb:after, .bannerNormal-22rPhb:before, .bannerUploaderInnerSquare-1ddxpx:after, .bannerUploaderInnerSquare-1ddxpx:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: cover;
-}
 
 .avatar-3mTjvZ {
     background-color: transparent !important;
     border: 0 !important;
     
-}
-
-.background-3d_SjE {
-    border-radius: 8px;
-    background-color: var(--background-secondary);
-    padding: 16px;
-    margin: 8px 16px 16px;
-}
-
-.background-3d_SjE, .popoutInfo-pKbpvG, .userInfo-regn9W {
-    position: relative;
 }
 
 .accountProfileCard-lbN7n- .avatar-3mTjvZ {
@@ -6515,4 +6465,31 @@ div[aria-label="Servers"]{
 
 .wrapper-1_HaEi {
   background-color: transparent !important;
+}
+
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub{
+  color: var(--white-500);
+  background-color: var(--background-secondary) !important;
+}
+
+.wrapper-3kah-n:hover .childWrapper-1j_1ub{
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.chatContent-3KubbW {
+  max-width: calc(100% - 0px);
+}
+
+.imageDetails-1t6Zms > * {
+  display: inline-block;
+  margin-right: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.anchor-1MIwyf {
+  color: rgb(152 200 255);
+  text-decoration: var(--link-decoration);
 }
