@@ -6554,3 +6554,8 @@ div[aria-label="Servers"]{
   pointer-events: none;
   z-index: 1;
 }
+
+.contentColumnWide-2CgNjO {
+  max-width: 740px;
+  padding: 100px 10px 80px 40px;
+}
