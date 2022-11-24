@@ -6388,3 +6388,71 @@ background-color: transparent !important;
 .item-2OyinQ:first-child {
   border-radius: 25px 0 0 25px;
 }
+
+
+.mention.iconMentionThread-3eRpNo {
+  padding-left: 0rem;
+}
+
+.input-2g-os5 {
+  border-radius: 20px !important;
+}
+
+.mainCard-3KBsBI {
+  margin-right: 45px;
+}
+
+.container-2qVG6q:hover{
+  background-color: var(--background-secondary-alt);
+}
+
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*="listItem"] .button-Jt-tIg {
+  width: 100%;
+  font-size: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  position: fixed;
+  height: 50% !important;
+  border-radius: 10px !important;
+  padding: 2px;
+}
+
+.channelMention>svg{
+  display: none !important;
+}
+
+.grid-21dB-S, .list-3FIpnh {
+  padding-right: 45px !important;
+}
+
+.item-1BCeuB {
+  border-radius: 20px;
+}
+
+.chat-2ZfjoI.threadSidebarOpen-1LSXvU {
+  border-radius: 0 25px 25px 0;
+}
+
+.container-3XgAHv {
+  border-radius: 25px 0 0 25px;
+}
+
+.resizeHandle-PBRzPC {
+  width: 4px;
+}
+
+.embed-hKpSrO code {
+  background: var(--background-secondary-alt) !important;
+}
+
+.rem-3kT9wc.botTag-7aX5WZ {
+  border-radius: 10px;
+}
+
+.scroller-3X7KbA{
+  overflow: hidden hidden !important;
+}
+
+div[aria-label="Servers"]{
+  overflow: hidden scroll !important;
+}
