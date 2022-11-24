@@ -160,7 +160,7 @@
 }
 
 :root {
-  --theme-version: "02.01.07 "
+  --theme-version: "02.01.08 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
@@ -6148,7 +6148,7 @@ html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
   border: 2px solid white;
   border-radius: 25px;
 }
-.sidebarRegionScroller-FXiQOh, .sidebar-1tnWFu, .scroller-3X7KbA, .container-2o3qEW{
+.sidebarRegionScroller-FXiQOh, .sidebar-1tnWFu{
   background: linear-gradient(180deg, rgba(39,39,39,1) 0%, rgba(39,39,39,1) 55%, rgb(51, 51, 51) 100%);
 }
 
@@ -6455,4 +6455,64 @@ background-color: transparent !important;
 
 div[aria-label="Servers"]{
   overflow: hidden scroll !important;
+}
+
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*="listItem"] .button-Jt-tIg{
+  position: fixed !important;
+} 
+
+.frame-oXWS21{
+  border-radius: 15px;
+  height: 5px;
+  position: fixed !important;
+  top: 11px;
+  right: 13px;
+}
+
+#app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
+  margin: 0px 22px !important;
+}
+
+#app-mount .guilds-2JjMmN [class*=pill] {
+  top: -25px !important;
+}
+
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*="listItem"] .button-Jt-tIg {
+  height: 30% !important;
+}
+
+#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+  width: var(--server-size);
+  left: 61%;
+  height: auto;
+  width: 45px;
+}
+
+.bf-toolbar::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: calc(100% - 15px);
+  position: absolute;
+  z-index: -1;
+  background: var(--background-secondary);
+  pointer-events: initial;
+  left: 0px !important;
+  top: 5px;
+  border-radius: 25px;
+  transform: translate(0,55px);
+  transition: all 200ms ease;
+}
+
+
+.bf-toolbar .format {
+  border-radius: 25px;
+}
+
+#app-mount .guilds-2JjMmN > [data-list-id=guildsnav] {
+  margin-bottom: 130px !important;
+}
+
+.wrapper-1_HaEi {
+  background-color: transparent !important;
 }
