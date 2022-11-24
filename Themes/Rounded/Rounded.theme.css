@@ -160,7 +160,7 @@
 }
 
 :root {
-  --theme-version: "02.02.01 "
+  --theme-version: "02.02.02 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
@@ -6420,33 +6420,35 @@ div[aria-label="Servers"]{
   text-decoration: var(--link-decoration);
 }
 
-/* [class*="WithBanner"] .bannerSVGWrapper-qc0szY foreignObject {
+[class*="WithBanner"] .bannerSVGWrapper-qc0szY foreignObject {
   border-radius: 17px 17px 0 0 !important;
   filter: blur(0px);
 }
 
-.popoutBanner-3cqRD9:before, .profileBanner-1owKI5:before, .banner-1YaD3N:before, .banner-2boKnS:before, .bannerNormal-22rPhb:before, .bannerUploaderInnerSquare-1ddxpx:before {
+.settingsBanner-2E5fAp::before {
   bottom: 0;
   opacity: 1;
-  height: calc(100vh - 20px);
   width: 100%;
   background-color: inherit !important;
   background-image: inherit !important;
   visibility: visible;
-}
+} 
+.settingsBanner-2E5fAp::before
+
 .popoutBannerPremium-3i5EEI.bannerPremium-kkSkPv:before, .profileBannerPremium-KD60EB.bannerPremium-kkSkPv:before, .bannerPremium-86naOf:before {
   transform: scaleY(-1);
   -webkit-transform: scaleY(-1);
-  top: 120px;
-  height: calc(100vh - 140px);
+  height: calc(100vh - -40px);
 }
 
-.banner-2boKnS:after, .banner-2boKnS:before, .banner-1YaD3N:after, .banner-1YaD3N:before, .bannerNormal-22rPhb:after, .bannerNormal-22rPhb:before, .bannerUploaderInnerSquare-1ddxpx:after, .bannerUploaderInnerSquare-1ddxpx:before {
+.banner-2boKnS:after, .banner-2boKnS:before, .banner-1YaD3N:after, .banner-1YaD3N:before{
   content: "";
   position: absolute;
-  top: -300px;
+  top: -160px;
+  padding-bottom: -300px;
   opacity: .8;
   left: 0;
+  height: -30px;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -6461,10 +6463,9 @@ div[aria-label="Servers"]{
   overflow: hidden;
 }
 
-
-.banner-2boKnS {
+.settingsBanner-2E5fAp {
   visibility: hidden;
-}
+} 
 
 .avatar-3mTjvZ {
   border: 0px solid var(--background-tertiary);
@@ -6478,4 +6479,4 @@ div[aria-label="Servers"]{
 
 .profileCardUsernameRow-1bb6fi{
   display: none;
-} */
+}
