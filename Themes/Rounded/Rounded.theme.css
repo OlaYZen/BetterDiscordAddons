@@ -160,7 +160,7 @@
 }
 
 :root {
-  --theme-version: "02.02.06 "
+  --theme-version: "02.02.07 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
@@ -6575,4 +6575,82 @@ div[aria-label="Servers"]{
 
 .applicationStore-2nk7Lo {
   background-color: transparent;
+}
+
+#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+  width: var(--server-size);
+  left: 48%;
+  height: auto;
+  width: 45px;
+}
+
+#app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
+  margin: 0px 9px !important;
+}
+
+#app-mount .guilds-2JjMmN [class*=pill] {
+  top: -29px !important;
+}
+
+.frame-oXWS21 {
+  border-radius: 15px;
+  height: 5px;
+  position: fixed !important;
+  top: 11px;
+  right: 25px;
+}
+
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*="listItem"] .button-Jt-tIg {
+  width: 100%;
+  font-size: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  position: fixed;
+  height: 50% !important;
+  padding: 2px;
+  border-radius: 10px !important;
+}
+
+.avatar-3mTjvZ {
+  border: 0px solid var(--background-tertiary);
+  background-color: transparent;
+  position: absolute;
+  top: 76px;
+  left: 16px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+.usernameInnerRow-1-STdK{
+  filter: drop-shadow(0px 5px 2px #9b9a9a);
+  margin:  0 6px 6px 0px;
+}
+
+.h5-2RwDNl, .label-2bTGzo, .legend-1TXTJO{
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+}
+
+.text-md-medium-2avxhQ, .text-md-normal-304U3g, .userTag-2qPxEZ, .title-338goq{
+  padding-left: 6px;
+}
+
+.defaultMarginh1-EURXsm, .defaultMarginh2-t7G-2y,.heading-lg-bold-3uwrwG {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: "Tommy-Soft-Regular";
+  font-size: 30px;
+}
+
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: 'Tommy-Soft-Regular';
+  font-size: 100%;
+  vertical-align: baseline;
 }
