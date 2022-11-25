@@ -5952,7 +5952,7 @@ html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
 }
 
 .container-ZMc96U.themed-Hp1KC_ {
-    border-radius: 25px !important;
+    border-radius: 25px;
 }
 
 [class^=contentColumn][class*=contentColumnDefault], [class^=contentColumn][class*=contentColumnMinimal] {
@@ -6558,4 +6558,11 @@ div[aria-label="Servers"]{
 .contentColumnWide-2CgNjO {
   max-width: 740px;
   padding: 100px 10px 80px 40px;
+}
+
+.option-ayUoaq:after {
+  background: transparent !important;
+}
+.option-ayUoaq:hover:after{
+  background: transparent !important;
 }
