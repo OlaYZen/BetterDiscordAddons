@@ -160,7 +160,7 @@
 }
 
 :root {
-  --theme-version: "02.02.04 "
+  --theme-version: "02.02.06 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
@@ -1096,16 +1096,6 @@ foreignObject {
 .compact-2Nkcau.wrapper-30-Nkg, .cozy-VmLDNB.wrapper-30-Nkg {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
-}
-
-@font-face{
-  font-family: "DX";
-  src: url("https://speakmore.olayzen.lol/fonts/DXLBaB-KSCpc-EUC-H.ttf") format("truetype");
-}
-
-@font-face{
-  font-family: "MontBlanc";
-  src: url("https://www.olayzen.lol/BetterDiscordAddons/Themes/Fonts/MontBlanc-Trial-Regular.ttf") format("truetype");
 }
 
 .cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
