@@ -1099,8 +1099,13 @@ foreignObject {
 }
 
 @font-face{
+  font-family: "DX";
+  src: url("https://speakmore.olayzen.lol/fonts/DXLBaB-KSCpc-EUC-H.ttf") format("truetype");
+}
+
+@font-face{
   font-family: "MontBlanc";
-  src: url("https://www.olayzen.lol/BetterDiscordAddons/Fonts/MontBlanc-Trial-Regular.ttf") format("truetype");
+  src: url("https://www.olayzen.lol/BetterDiscordAddons/Themes/Fonts/MontBlanc-Trial-Regular.ttf") format("truetype");
 }
 
 .cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
