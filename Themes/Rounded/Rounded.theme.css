@@ -160,7 +160,7 @@
 }
 
 :root {
-  --theme-version: "02.02.08 "
+  --theme-version: "02.02.09 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
@@ -1571,10 +1571,6 @@ body{
 
 .userProfileInner-3F03PX:before{
     filter: blur(10px);
-}
-
-.chatContent-3KubbW {
-	max-width: calc(100% - 60px);
 }
 
 .title-31SJ6t {
@@ -6392,10 +6388,6 @@ div[aria-label="Servers"]{
   background-color: var(--background-secondary-alt) !important;
 }
 
-.chatContent-3KubbW {
-  max-width: calc(100% - 0px);
-}
-
 .imageDetails-1t6Zms > * {
   display: inline-block;
   margin-right: 5px;
@@ -6728,4 +6720,14 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 
 #app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] .wrapper-3kah-n {
   height: 0% !important;
+}
+
+.chatContent-3KubbW {
+  max-width: calc(100% - 0px);
+}
+
+.membersWrap-3NUR2t {
+  height: 100%;
+  position: relative !important;
+  right: 0px;
 }
