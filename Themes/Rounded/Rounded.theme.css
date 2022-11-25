@@ -160,7 +160,7 @@
 }
 
 :root {
-  --theme-version: "02.02.03 "
+  --theme-version: "02.02.04 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
@@ -6565,4 +6565,19 @@ div[aria-label="Servers"]{
 }
 .option-ayUoaq:hover:after{
   background: transparent !important;
+}
+
+.option-ayUoaq:after {
+  background: transparent !important;
+}
+.option-ayUoaq:hover:after{
+  background: transparent !important;
+}
+
+.headerBar-1dSpQr{
+  border-radius: 25px 0 0 0 !important;
+}
+
+.applicationStore-2nk7Lo {
+  background-color: transparent;
 }
