@@ -160,7 +160,7 @@
 }
 
 :root {
-  --theme-version: "02.03.01 "
+  --theme-version: "02.03.02 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
@@ -6703,7 +6703,6 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
   max-width: calc(100% - 0px);
 }
 
-
 .membersWrap-3NUR2t {
   height: 100%;
   position: relative !important;
@@ -6711,42 +6710,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 }
 
 .cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
-  max-width: 100%;
-}
-
-.cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
   max-width: 100% !important;
-}
-
-.roleMention-11Aaqi::before {
-  content: "🎖️ ROLE: ";
-
-}
-
-.mention.interactive:not(.channelMention):before{
-  content: "👤 PERSON: " !important;
-}
-
-svg[aria-label="Voice Channel"]{
-  display: none;
-  padding: 0;
-  margin: 0;
-}
-
-.mention.iconMention-3WxjBe,.mention.iconMentionThread-3eRpNo {
-  padding-left: 0;
-}
-
-.channelMention:not(.roleMention-11Aaqi,.mention.iconMentionThread-3eRpNo,.mention.iconMentionText-1_WCtN):before{
-  content: "🔊 VC: " !important;
-}
-
-.mention.iconMentionThread-3eRpNo::before {
-  content: "🗐 FORUM: ";
-}
-
-.mention.iconMentionText-1_WCtN::before {
-  content: "🗏 CHANNEL: ";
 }
 
 .info-3pQQBb:after {

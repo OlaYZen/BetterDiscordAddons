@@ -1,0 +1,30 @@
+.channelMention:not(.roleMention-11Aaqi,.mention.iconMentionThread-3eRpNo,.mention.iconMentionText-1_WCtN):before{
+    content: "🔊 VC: " !important;
+}
+
+.mention.iconMentionThread-3eRpNo::before {
+    content: "🗐 FORUM: ";
+}
+
+.mention.iconMentionText-1_WCtN::before {
+    content: "🗏 CHANNEL: ";
+}
+
+.roleMention-11Aaqi::before {
+    content: "🎖️ ROLE: ";
+
+}
+
+.mention.interactive:not(.channelMention):before{
+    content: "👤 PERSON: " !important;
+}
+
+svg[aria-label="Voice Channel"]{
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mention.iconMention-3WxjBe,.mention.iconMentionThread-3eRpNo {
+    padding-left: 0;
+}
