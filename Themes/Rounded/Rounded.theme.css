@@ -167,13 +167,6 @@
   content: "version " var(--theme-version)
 }
 
-.info-3pQQBb:after {
-  content: "Rounded - " var(--theme-version);
-  top: 16px;
-  color: var(--text-muted);
-  position: relative
-}
-
 [id^="Rounded"] .bd-addon-header .bd-version {
   font-size: 0
 }
@@ -6500,18 +6493,6 @@ div[aria-label="Servers"]{
   padding: 0 !important;
 }
 
-.mention.iconMentionThread-3eRpNo {
-  padding-left: 0rem;
-}
-
-.mention.iconMentionThread-3eRpNo::before {
-  content: "#FORUM: ";
-}
-
-.mention.iconMentionText-1_WCtN::before {
-  content: "#CHANNEL: ";
-}
-
 .avatar-2e8lTP {
   position: absolute;
   left: 43px;
@@ -6731,4 +6712,65 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 
 .cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
   max-width: 100%;
+}
+
+.cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
+  max-width: 100% !important;
+}
+
+.roleMention-11Aaqi::before {
+  content: "🎖️ ROLE: ";
+
+}
+
+.mention.interactive:not(.channelMention):before{
+  content: "👤 PERSON: " !important;
+}
+
+svg[aria-label="Voice Channel"]{
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mention.iconMention-3WxjBe,.mention.iconMentionThread-3eRpNo {
+  padding-left: 0;
+}
+
+.channelMention:not(.roleMention-11Aaqi,.mention.iconMentionThread-3eRpNo,.mention.iconMentionText-1_WCtN):before{
+  content: "🔊 VC: " !important;
+}
+
+.mention.iconMentionThread-3eRpNo::before {
+  content: "🗐 FORUM: ";
+}
+
+.mention.iconMentionText-1_WCtN::before {
+  content: "🗏 CHANNEL: ";
+}
+
+.info-3pQQBb:after {
+  content: "Rounded - " var(--theme-version);
+  top: 0px;
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--text-muted);
+  position: relative;
+  width: 100%;
+}
+
+.socialLinks-3ywLUf>a[title*="Twitter"]{
+  display: none;
+}
+.socialLinks-3ywLUf>a[title*="Facebook"]{
+  display: none;
+}
+.socialLinks-3ywLUf>a[title*="Instagram"]{
+  display: none;
+}
+.socialLinks-3ywLUf::before{
+  content: "Follow me instead of Discord 😊";
+  color: var(--header-primary);
+  font-size: 15px;
+  font-weight: bold;
 }
