@@ -6730,5 +6730,5 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 }
 
 .cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
-  max-width: 10000000px;
+  max-width: 100%;
 }
