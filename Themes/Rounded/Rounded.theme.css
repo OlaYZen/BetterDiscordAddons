@@ -160,7 +160,7 @@
 }
 
 :root {
-  --theme-version: "02.03.03 "
+  --theme-version: "02.03.04 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
@@ -6737,4 +6737,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
   color: var(--header-primary);
   font-size: 15px;
   font-weight: bold;
+}
+
+.mention.iconMention-3WxjBe,.mention.iconMentionThread-3eRpNo{
+  padding-left: 0 !important;
 }
