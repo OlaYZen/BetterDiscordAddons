@@ -1,7 +1,7 @@
 /**
   * @name Rounded
   * @author OlaYZen#6969
-  * @version 02.03.02
+  * @version 02.03.06
   * @description A Modern take on Discord's UI
   * @authorId 524932775787364362
   * @authorLink https://github.com/OlaYZen
@@ -10,20 +10,15 @@
 */
 
 
-@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css"); /* Horizontal Server List thanks to Gibbu */
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css"); /* EmojiReplacer thanks to Devilbro */
-@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css'); /* Better Badges thanks to mr_miner */
 @import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Rounded.theme.css');
-@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Fonts.css');
-
-/* Comment the import under to still see the gift button*/
-@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/HideGiftButton.css');
 
 /*Comment the import under to remove all rainbow text effect*/
 @import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Rainbowtext.css');
 
 /*Comment the import under to remove all Channel, Forum, Voice Channel and @ Prefixes*/
 @import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Prefix.css');
+
+
 
 :root {
   --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */

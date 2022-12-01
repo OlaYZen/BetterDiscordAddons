@@ -1,3 +1,11 @@
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Fonts.css');
+@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/HideGiftButton.css');
+
+
+
 :root {
     --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
     --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
@@ -160,7 +168,7 @@
 }
 
 :root {
-  --theme-version: "02.03.05 "
+  --theme-version: "02.03.06 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
