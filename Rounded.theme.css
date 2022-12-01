@@ -24,6 +24,7 @@
 
 /*Comment the import under to remove all Channel, Forum, Voice Channel and @ Prefixes*/
 @import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Prefix.css');
+
 :root {
   --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
   --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */

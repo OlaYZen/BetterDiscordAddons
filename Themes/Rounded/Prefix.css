@@ -25,6 +25,6 @@ svg[aria-label="Voice Channel"]{
     margin: 0;
 }
 
-.mention.iconMention-3WxjBe,.mention.iconMentionThread-3eRpNo {
-    padding-left: 0;
+.mention.iconMention-3WxjBe,.mention.iconMentionThread-3eRpNo{
+    padding-left: 0 !important;
 }
