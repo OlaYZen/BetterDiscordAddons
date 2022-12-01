@@ -160,7 +160,7 @@
 }
 
 :root {
-  --theme-version: "02.03.04 "
+  --theme-version: "02.03.05 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
@@ -6741,4 +6741,15 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 
 .mention.iconMention-3WxjBe,.mention.iconMentionThread-3eRpNo{
   padding-left: 0 !important;
+}
+
+.mention {
+  border-radius: 20px;
+  padding: 3px 7px 3px 7px;
+  margin-left: 2px;
+  text-align: center;
+}
+
+.mention.iconMention-3WxjBe, .mention.iconMentionThread-3eRpNo {
+  padding-left: 7px !important;
 }
