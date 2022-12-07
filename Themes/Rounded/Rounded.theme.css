@@ -6798,6 +6798,19 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
   display: none;
 }
 
-.container--8P6Tr,.ctaWrapper-4Js5Q6,.theme-dark .feature-2IUcBI,.perksGridHeading-1z7LE-,.footerCtasHeading-p5fP62{
+.container--8P6Tr>svg,.ctaWrapper-4Js5Q6,.theme-dark .feature-2IUcBI,.perksGridHeading-1z7LE-,.footerCtasHeading-p5fP62{
+  display: none;
+}
+
+.text-sm-medium-3Pz3rB::before{
+  content: "Change the weather location inside the Rounded theme file.";
+  color: white !important;
+}
+
+.text-sm-medium-3Pz3rB{
+  color: transparent;
+  background-color: transparent;
+}
+.card-16VQ8C a{
   display: none;
 }
