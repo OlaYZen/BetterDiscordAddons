@@ -28,3 +28,7 @@
   --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
   --badges-everywhere-size: 15px; /*default = 15px*/
 }
+
+.heroImages-2g-v0- {
+  background: no-repeat url(https://www.yr.no/nb/innhold/1-72837/meteogram.svg) !important; /*Change the url to your local area using yr.no*/
+}

@@ -6761,3 +6761,43 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .mention.iconMention-3WxjBe, .mention.iconMentionThread-3eRpNo {
   padding-left: 7px !important;
 }
+
+.heroImages-2g-v0- {
+  height: 100% !important;
+  width: 100% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.hero-1gKM4P {
+  background: white !important;
+}
+
+.hero-1gKM4P {
+  height: 400px;
+  width: 800px;
+}
+
+.premiumLabel-3HPvdB::before {
+  content: "Weather" !important;
+  color: white !important;
+}
+
+.premiumLabel-3HPvdB{
+  color: transparent !important;
+}
+
+.selected-g-kMVV[aria-label="Nitro"]:after {
+  content: "Weather" !important;
+
+}
+
+.premiumLabel-3HPvdB>svg{
+  display: none;
+}
+
+.container--8P6Tr,.ctaWrapper-4Js5Q6,.theme-dark .feature-2IUcBI,.perksGridHeading-1z7LE-,.footerCtasHeading-p5fP62{
+  display: none;
+}
