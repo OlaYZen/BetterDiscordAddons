@@ -168,7 +168,7 @@
 }
 
 :root {
-  --theme-version: "02.03.08 "
+  --theme-version: "02.03.09 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
@@ -6762,6 +6762,22 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
   padding-left: 7px !important;
 }
 
+.backgroundAvatarsVariant1-kC5G9W,.hero-2rQ_qr,.invite-3uuHYQ,.upsellTooltipWrapper-1wqikQ,.mainCard-3KBsBI,.container-2,.container-2McqkF,.quickSelectPopout-2F0PXw,.container-2ebMPP{
+  border-radius: 20px !important;
+}
+
+
+.backgroundAvatarsVariant1-kC5G9W{
+  width: 800px;
+}
+.header-1zd7se {
+  border-radius: 0;
+}
+
+.theme-dark .quickSelectPopout-2F0PXw {
+  background: var(--background-secondary);
+}
+
 .heroImages-2g-v0- {
   height: 100% !important;
   width: 100% !important;
@@ -6771,11 +6787,11 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 }
 
 
-.hero-1gKM4P {
+.hero-2rQ_qr {
   background: white !important;
 }
 
-.hero-1gKM4P {
+.hero-2rQ_qr {
   height: 400px;
   width: 800px;
 }
@@ -6813,4 +6829,21 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 }
 .card-16VQ8C a{
   display: none;
+}
+
+:root {
+  --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+  --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
+  --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
+  --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
+  --badges-everywhere-size: 15px; /*default = 15px*/
+}
+
+.invite-3uuHYQ {
+  border-radius: 20px;
+}
+
+.artwork-28Cmnt {
+  border-radius: 16px;
 }

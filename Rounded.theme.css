@@ -1,14 +1,13 @@
 /**
   * @name Rounded
   * @author OlaYZen#6969
-  * @version 02.03.06
+  * @version 02.03.09
   * @description A Modern take on Discord's UI
   * @authorId 524932775787364362
   * @authorLink https://github.com/OlaYZen
   * @source https://github.com/OlaYZen/betterdiscordaddons
   * @website https://olayzen.lol
 */
-
 
 @import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Rounded.theme.css');
 
@@ -18,17 +17,7 @@
 /*Comment the import under to remove all Channel, Forum, Voice Channel and @ Prefixes*/
 @import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Prefix.css');
 
-
-
-:root {
-  --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
-  --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
-  --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
-  --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
-  --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
-  --badges-everywhere-size: 15px; /*default = 15px*/
-}
-
-.heroImages-2g-v0- {
-  background: no-repeat url(https://www.yr.no/nb/innhold/1-72837/meteogram.svg) !important; /*Change the url to your local area using yr.no*/
+/* Change the url to your local area using yr.no */
+.backgroundAvatarsVariant1-kC5G9W {
+  background: no-repeat url(https://www.yr.no/nb/innhold/1-72837/meteogram.svg) !important; 
 }
