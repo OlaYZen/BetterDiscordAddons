@@ -17,7 +17,7 @@
 /*Comment the import under to remove all Channel, Forum, Voice Channel and @ Prefixes*/
 @import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Prefix.css');
 
-/* Change the url to your local area using yr.no */
-.backgroundAvatarsVariant1-kC5G9W {
-  background: no-repeat url(https://www.yr.no/nb/innhold/1-72837/meteogram.svg) !important; 
+
+:root{ /* Change the url to your local area using yr.no */
+  --weather: url(https://www.yr.no/en/content/1-72837/meteogram.svg);
 }
