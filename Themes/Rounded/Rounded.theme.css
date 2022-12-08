@@ -169,7 +169,7 @@
 }
 
 :root {
-  --theme-version: "02.03.10 "
+  --theme-version: "02.04.1 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
@@ -6502,7 +6502,7 @@ div[aria-label="Servers"]{
   padding: 0 !important;
 }
 
-.avatar-2e8lTP {
+.avatar-2e8lTP,.avatarDecoration-34OC0G {
   position: absolute;
   left: 43px;
   margin-top: calc(34px - .125rem);
