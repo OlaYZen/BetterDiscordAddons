@@ -40,11 +40,6 @@
     display: none;
 }
 
-.text-sm-medium-3Pz3rB::before{
-    content: "Change the weather location inside the Rounded theme file.";
-    color: white !important;
-}
-
 .text-sm-medium-3Pz3rB{
     color: transparent;
     background-color: transparent;
