@@ -169,7 +169,7 @@
 }
 
 :root {
-  --theme-version: "02.04.02 "
+  --theme-version: "02.04.05 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
