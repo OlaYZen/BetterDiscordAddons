@@ -169,7 +169,7 @@
 }
 
 :root {
-  --theme-version: "02.04.05 "
+  --theme-version: "02.04.08 "
 }
 
 [id^="Rounded"] .bd-addon-header .bd-version:before {
@@ -6798,4 +6798,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 
 .selectedBackground-1t6xXq {
   background-color: var(--background-modifier-selected);
+}
+
+.searchBar-jGtisZ {
+  width: 25px;
 }
