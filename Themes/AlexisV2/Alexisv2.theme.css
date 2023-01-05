@@ -1,7 +1,7 @@
 /**
   * @name Alexis v2
   * @author OlaYZen#6969
-  * @version 01.01.01
+  * @version 2.1.4 [DEV VERSION]
   * @description A Modern take on Discord's UI
   * @authorId 524932775787364362
   * @authorLink https://github.com/OlaYZen
@@ -23,6 +23,7 @@
 
 :root {
   --status-green-600: #3ee239;
+  --version: "2.1.4 [DEV VERSION]"
 }
 :root {
   --sidebar-width: 270px;
@@ -290,20 +291,18 @@
   padding-left: 20px;
 }
 
-.container-ZMc96U.themed-Hp1KC_{
-  background: transparent !important; 
-  backdrop-filter: blur(4px);
-  border-bottom: 2px #2b2b2b solid;
-}
 
 
 
-.fontSize16Padding-XoMpjI {
+
+
+
+/* .fontSize16Padding-XoMpjI {
   padding-bottom: 11px;
   padding-top: 11px;
   padding-left: 20px;
   padding-right: 300px;
-}
+} */
 
 .content-1jQy2l,.base-2jDfDU {
   position: absolute;
@@ -353,14 +352,17 @@
   background-color: var(--background-secondary);
 }
 
-.contentColumnDefault-3eyv5o>div>div>div{
-  background-color: #2b2b2b;
+.contentColumnDefault-3eyv5o>div>div>div:not(.bd-addon-header,.bd-footer,.bd-description-wrap){
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
   margin-bottom: 5px;
   border-radius: 5px;
+}
+
+.contentColumnDefault-3eyv5o>div>div>div{
+  background-color: #2b2b2b;
 }
 
 .contentColumnDefault-3eyv5o>div>div>div>.divider-_0um2u{
@@ -398,4 +400,197 @@
 }
 .item-2idW98 {
   color: var(--interactive-normal) !important;
+}
+.bd-switch input:checked+.bd-switch-body {
+  --switch-color: #60cdff;
+}
+
+.bd-switch-body {
+  --switch-color: transparent;
+  border: 1px #c9c9c9 solid;
+  border-radius: 14px;
+  width: 45px;
+  height: 24px;
+  position: relative;
+}
+
+.bd-switch input:checked+.bd-switch-body .bd-switch-slider {
+  left: 23px;
+}
+
+.bd-switch input:checked+.bd-switch-body:after {
+  content: "On";
+  bottom: -1px;
+  right: 36px;
+  font-size: 14px;
+  color: white;
+  position: relative;
+}
+
+.bd-switch input+.bd-switch-body:after {
+  content: "Off";
+  right: 36px;
+  bottom: -1px;
+  font-size: 14px;
+  color: white;
+  position: relative;
+}
+
+.sidebarRegionScroller-FXiQOh::after {
+  background-color: #2b2b2b;
+}
+
+.body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.bd-switch-slider svg {
+  display: none;
+}
+
+.bd-switch-slider rect {
+  fill: #c9c9c9;
+}
+
+.bd-switch-checked > div > .bd-switch-slider rect {
+  fill: black;
+}
+
+.bd-switch-body .bd-switch-slider{
+  margin: 1px;
+  left: -2px;
+  width: 21px;
+  height: 20px;
+}
+
+.bd-switch-checked>.bd-switch-body{
+  border: 0;
+}
+
+.bd-switch-checked>.bd-switch-body .bd-switch-slider {
+  height: 22px;
+}
+
+.iconWrapper-2awDjA[aria-label="Show User Profile"], .iconWrapper-2awDjA[aria-label="Show User Profile (Unavailable)"] {
+  display: none !important;
+}
+
+.searchBar-jGtisZ {
+  width: 25px;
+}
+
+.info-3pQQBb:after {
+  content: "Alexis V2 - " var(--version);
+  top: 0px;
+  font-size: 12px;
+  color: var(--text-muted);
+  position: relative;
+  width: 100%;
+}
+
+.platform-win .winButton-3UMjdg {
+  position: relative;
+  top: calc(var(--TB-position-top, 21px) - 1px);
+  right: var(--TB-position-right, 0px);
+  height: var(--TB-height, 18px);
+  width: var(--TB-width, 40px);
+}
+
+.winButton-3UMjdg {
+  top: 0;
+  height: 42px !important;
+  width: 48px !important;
+}
+
+.titleBar-1it3bQ, .typeMacOS-3V4xXE.titleBar-1it3bQ, .typeWindows-2-g3UY.titleBar-1it3bQ, html.platform-osx #app-mount .typeMacOS-3V4xXE, html.platform-osx #app-mount .typeWindows-2-g3UY {
+  --frame-gap: -20px !important;
+}
+
+.titleBar-1it3bQ, .typeMacOS-3V4xXE.titleBar-1it3bQ, .typeWindows-2-g3UY.titleBar-1it3bQ, html.platform-osx #app-mount .typeMacOS-3V4xXE, html.platform-osx #app-mount .typeWindows-2-g3UY {
+  --frame-gap: 10px;
+  /* height: calc(var(--app-windowbar-height) - var(--frame-gap)); */
+  margin-top: var(--frame-gap);
+  user-select: none;
+  pointer-events: none;
+  background: unset;
+  height: 30px;
+  position: fixed;
+  box-sizing: border-box;
+  left: var(--frame-gap);
+  right: var(--frame-gap);
+  width: calc(100vw - (var(--frame-gap) * 2));
+}
+
+.winButtonClose-3Q8ZH5 {
+  margin-right: calc(var(--frame-gap) * -1);
+}
+
+#app-mount .guilds-2JjMmN > [data-list-id=guildsnav] {
+  margin-bottom: 140px !important;
+}
+
+.scroller-3X7KbA {
+  overflow: hidden hidden !important;
+}
+
+div[aria-label="Servers"] {
+  overflow: hidden scroll !important;
+}
+
+.contentRegionScroller-2_GT_N .toolsContainer-25FL6V {
+  margin: 0;
+  width: var(--size);
+  height: var(--size);
+  padding: 0;
+}
+
+:root {
+  --theme-version: "02.01.05 ";
+  --icon-back: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z'/%3E%3C/svg%3E);
+}
+
+.closeButton-PCZcma {
+  border-radius: 14px;
+  border-width: 0px;
+  border-style: solid;
+}
+.closeButton-PCZcma {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 36px;
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  border-radius: 14px;
+  border-width: 2px;
+  border-style: solid;
+  background-color: var(--background-tertiary);
+  border-color: white;
+  cursor: pointer;
+}
+
+.closeButton-PCZcma svg {
+  --icon: var(--icon-back);
+  --mask-size: 100%;
+  --size: 24px;
+  width: var(--size);
+  height: var(--size);
+  background-color: var(--interactive-normal);
+  transition: background-color .25s ease;
+  -webkit-mask-size: var(--mask-size);
+  mask-size: var(--mask-size);
+  -webkit-mask-image: var(--icon);
+  mask-image: var(--icon);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
 }
