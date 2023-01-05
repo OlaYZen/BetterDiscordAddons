@@ -11,6 +11,9 @@
 
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 
+/* If you are having performance issues, remove the import under. This removes all blur from the theme*/
+@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/AlexisV2/blur.css');
+
 
 :root{
   --windark-check1: rgba(255, 255, 255, 0.5442);
