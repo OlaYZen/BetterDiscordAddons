@@ -1,9 +1,9 @@
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
 @import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
-@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Fonts.css');
-@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/HideGiftButton.css');
-@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/weather.css');
+@import url('https://www.olayzen.com/BetterDiscordAddons/Themes/Rounded/Fonts.css');
+@import url('https://www.olayzen.com/BetterDiscordAddons/Themes/Rounded/HideGiftButton.css');
+@import url('https://www.olayzen.com/BetterDiscordAddons/Themes/Rounded/weather.css');
 
 
 
@@ -1206,7 +1206,7 @@ body{
   
   @font-face{
     font-family: "LogoFont";
-    src: url("https://speakmore.olayzen.lol/fonts/DXLBaB-KSCpc-EUC-H.ttf") format("truetype");
+    src: url("https://speakmore.olayzen.com/fonts/DXLBaB-KSCpc-EUC-H.ttf") format("truetype");
   }
   
   .cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
@@ -1321,7 +1321,7 @@ body{
 
 @font-face{
   font-family: "LogoFont";
-  src: url("https://speakmore.olayzen.lol/fonts/DXLBaB-KSCpc-EUC-H.ttf") format("truetype");
+  src: url("https://speakmore.olayzen.com/fonts/DXLBaB-KSCpc-EUC-H.ttf") format("truetype");
 }
 
 .cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
