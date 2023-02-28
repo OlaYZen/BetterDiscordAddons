@@ -9,13 +9,13 @@
   * @website https://olayzen.lol
 */
 
-@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Rounded.theme.css');
+@import url('https://www.olayzen.com/BetterDiscordAddons/Themes/Rounded/Rounded.theme.css');
 
 /*Comment the import under to remove all rainbow text effect*/
-@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Rainbowtext.css');
+@import url('https://www.olayzen.com/BetterDiscordAddons/Themes/Rounded/Rainbowtext.css');
 
 /*Comment the import under to remove all Channel, Forum, Voice Channel and @ Prefixes*/
-@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Prefix.css');
+@import url('https://www.olayzen.com/BetterDiscordAddons/Themes/Rounded/Prefix.css');
 
 
 :root{ /* Change the url to your local area using yr.no */
