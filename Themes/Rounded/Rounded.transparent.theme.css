@@ -1,4 +1,25 @@
-/**
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+@import url('https://www.olayzen.com/BetterDiscordAddons/Themes/Rounded/Fonts.css');
+@import url('https://www.olayzen.com/BetterDiscordAddons/Themes/Rounded/HideGiftButton.css');
+@import url('https://www.olayzen.com/BetterDiscordAddons/Themes/Rounded/weather.css');
+
+
+
+:root {
+    --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+    --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+    --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
+    --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
+    --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
+    --badges-everywhere-size: 15px; /*default = 15px*/
+}
+
+.theme-dark {
+  --header-primary: white;
+  --header-secondary: #898989;
+  --text-normal: #ffffff;/**
   * @name Rounded - Transparent Edition
   * @author OlaYZen#6969
   * @version 02.03.06
@@ -6,17 +27,17 @@
   * @authorId 524932775787364362
   * @authorLink https://github.com/OlaYZen
   * @source https://github.com/OlaYZen/betterdiscordaddons
-  * @website https://olayzen.lol
+  * @website https://olayzen.com
 */
 
 
-@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Rounded.theme.css');
+@import url('https://www.olayzen.com/BetterDiscordAddons/Themes/Rounded/Rounded.theme.css');
 
 /*Comment the import under to remove all rainbow text effect*/
-@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Rainbowtext.css');
+@import url('https://www.olayzen.com/BetterDiscordAddons/Themes/Rounded/Rainbowtext.css');
 
 /*Comment the import under to remove all Channel, Forum, Voice Channel and @ Prefixes*/
-@import url('https://www.olayzen.lol/BetterDiscordAddons/Themes/Rounded/Prefix.css');
+@import url('https://www.olayzen.com/BetterDiscordAddons/Themes/Rounded/Prefix.css');
 
 
 
@@ -298,4 +319,6787 @@ background-color: rgba(0, 0, 0, 0.532) !important;
 .member-48YF_l, .members-3WRCEx {
   border-radius: 5px;
   background-color: var(--background-secondary);
+}
+  --text-muted: rgb(234, 234, 234);
+  --text-link: rgb(121, 180, 247);
+  --text-link-low-saturation: rgb(121, 180, 247);
+  --text-positive: rgb(0, 255, 0);
+  --text-warning: yellow;
+  --text-danger: red;
+  --text-brand: var(--brand-360);
+  --interactive-normal: #ffffff;
+  --interactive-hover: rgb(255, 255, 255);
+  --interactive-active: white;
+  --interactive-muted: gray;
+  --background-primary: #000000;
+  --background-secondary: #1f1f1f;
+  --background-secondary-alt: #121212;
+  --background-tertiary: #272727;
+  --background-accent: rgb(56, 56, 56);
+  --background-floating: #000000;
+  --background-nested-floating: #272727;
+  --background-mobile-primary: #000000;
+  --background-mobile-secondary: #1f1f1f;
+  --chat-background: #000000;
+  --chat-border: #1f1f1f;
+  --chat-input-container-background: #1f1f1f;
+  --background-modifier-hover: rgba(var(--primary-dark-500-rgb),0.4);
+  --background-modifier-active: rgba(var(--primary-dark-500-rgb),0.48);
+  --background-modifier-selected: rgba(var(--primary-dark-500-rgb),0.6);
+  --background-modifier-accent: rgba(var(--primary-dark-500-rgb),0.48);
+  --info-positive-background: rgba(var(--status-green-600-rgb),0.1);
+  --info-positive-foreground: var(--status-green-600);
+  --info-positive-text: var(--white-500);
+  --info-warning-background: rgba(var(--status-yellow-500-rgb),0.1);
+  --info-warning-foreground: var(--status-yellow-500);
+  --info-warning-text: var(--white-500);
+  --info-danger-background: rgba(var(--status-red-500-rgb),0.1);
+  --info-danger-foreground: var(--status-red-500);
+  --info-danger-text: var(--white-500);
+  --info-help-background: rgba(var(--link-500-rgb),0.1);
+  --info-help-foreground: var(--link-500);
+  --info-help-text: var(--white-500);
+  --status-positive-background: var(--status-green-660);
+  --status-positive-text: var(--white-500);
+  --status-warning-background: var(--status-yellow-500);
+  --status-warning-text: var(--black-500);
+  --status-danger-background: var(--status-red-500);
+  --status-danger-text: var(--white-500);
+  --status-danger: var(--status-red-500);
+  --status-positive: var(--status-green-600);
+  --status-warning: var(--status-yellow-500);
+  --button-danger-background: var(--status-red-530);
+  --button-danger-background-hover: var(--status-red-600);
+  --button-danger-background-active: var(--status-red-630);
+  --button-danger-background-disabled: var(--status-red-530);
+  --button-positive-background: var(--status-green-660);
+  --button-positive-background-hover: var(--status-green-730);
+  --button-positive-background-active: var(--status-green-760);
+  --button-positive-background-disabled: var(--status-green-660);
+  --button-secondary-background: var(--primary-dark-500);
+  --button-secondary-background-hover: var(--primary-dark-430);
+  --button-secondary-background-active: var(--primary-dark-400);
+  --button-secondary-background-disabled: var(--primary-dark-500);
+  --button-outline-danger-text: var(--white-500);
+  --button-outline-danger-border: var(--status-red-500);
+  --button-outline-danger-background: rgba(var(--white-500-rgb),0);
+  --button-outline-danger-background-hover: var(--status-red-530);
+  --button-outline-danger-text-hover: var(--white-500);
+  --button-outline-danger-border-hover: var(--status-red-530);
+  --button-outline-danger-background-active: var(--status-red-560);
+  --button-outline-danger-text-active: var(--white-500);
+  --button-outline-danger-border-active: var(--status-red-530);
+  --button-outline-positive-text: var(--white-500);
+  --button-outline-positive-border: var(--status-green-600);
+  --button-outline-positive-background: rgba(var(--white-500-rgb),0);
+  --button-outline-positive-background-hover: var(--status-green-660);
+  --button-outline-positive-text-hover: var(--white-500);
+  --button-outline-positive-border-hover: var(--status-green-660);
+  --button-outline-positive-background-active: var(--status-green-730);
+  --button-outline-positive-text-active: var(--white-500);
+  --button-outline-positive-border-active: var(--status-green-730);
+  --button-outline-brand-text: var(--white-500);
+  --button-outline-brand-border: var(--brand-500);
+  --button-outline-brand-background: rgba(var(--white-500-rgb),0);
+  --button-outline-brand-background-hover: var(--brand-500);
+  --button-outline-brand-text-hover: var(--white-500);
+  --button-outline-brand-border-hover: var(--brand-500);
+  --button-outline-brand-background-active: var(--brand-560);
+  --button-outline-brand-text-active: var(--white-500);
+  --button-outline-brand-border-active: var(--brand-560);
+  --button-outline-primary-text: var(--white-500);
+  --button-outline-primary-border: var(--primary-dark-500);
+  --button-outline-primary-background: rgba(var(--white-500-rgb),0);
+  --button-outline-primary-background-hover: var(--primary-dark-500);
+  --button-outline-primary-text-hover: var(--white-500);
+  --button-outline-primary-border-hover: var(--primary-dark-500);
+  --button-outline-primary-background-active: var(--primary-dark-430);
+  --button-outline-primary-text-active: var(--white-500);
+  --button-outline-primary-border-active: var(--primary-dark-430);
+  --modal-background: black;
+  --modal-footer-background: transparent;
+  --scrollbar-thin-thumb: #ffffff;
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: #ffffff;
+  --scrollbar-auto-track: transparent;
+  --scrollbar-auto-scrollbar-color-thumb: #ffffff;
+  --scrollbar-auto-scrollbar-color-track: transparent;
+  --input-background: var(--primary-dark-700);
+  --input-placeholder-text: var(--input-placeholder-text-dark);
+  --logo-primary: var(--white-500);
+  --focus-primary: var(--focus-primary-500);
+  --control-brand-foreground: var(--brand-360);
+  --control-brand-foreground-new: var(--brand-new-360);
+  --background-mentioned: rgba(var(--status-yellow-500-rgb),0.1);
+  --background-mentioned-hover: rgba(var(--status-yellow-500-rgb),0.08);
+  --background-message-hover: #111111;
+  --background-message-automod: rgba(var(--status-red-500-rgb),0.05);
+  --background-message-automod-hover: rgba(var(--status-red-500-rgb),0.1);
+  --background-message-highlight: rgba(var(--brand-360-rgb),0.08);
+  --background-message-highlight-hover: rgba(var(--brand-360-rgb),0.06);
+  --channels-default: rgb(130, 130, 130);
+  --channel-icon: rgb(255, 255, 255);
+  --channel-text-area-placeholder: gray;
+  --channeltextarea-background: #1a1a1a;
+  --activity-card-background: var(--primary-dark-700);
+  --textbox-markdown-syntax: var(--primary-dark-360);
+  --spoiler-revealed-background: var(--primary-dark-660);
+  --spoiler-hidden-background: var(--primary-dark-700);
+  --android-navigation-bar-background: var(--primary-dark-830);
+  --android-ripple: rgba(var(--white-500-rgb),0.07);
+  --deprecated-card-bg: rgba(var(--primary-dark-700-rgb),0.6);
+  --deprecated-card-editable-bg: rgba(var(--primary-dark-700-rgb),0.3);
+  --deprecated-store-bg: var(--primary-dark-600);
+  --deprecated-quickswitcher-input-background: var(--primary-dark-400);
+  --deprecated-quickswitcher-input-placeholder: rgba(var(--white-500-rgb),0.3);
+  --deprecated-text-input-bg: var(--primary-dark-700);
+  --deprecated-text-input-border: rgba(var(--black-500-rgb),0.3);
+  --deprecated-text-input-border-hover: var(--primary-dark-900);
+  --deprecated-text-input-border-disabled: var(--primary-dark-700);
+  --deprecated-text-input-prefix: var(--primary-dark-200);
+  --server-size: var(--server-icon-size, var(--HSL-size, 35px));
+  --icon-back:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z'/%3E%3C/svg%3E");
+  --app-windowbar-height: var(--server-container);
+  --server-container: calc(var(--server-size) + (2 * var(--server-outer-margin, 14px)));
+  --windowcontrol-buttons-width: 45px;
+  --background-modifier-accent: rgba(255, 255, 255, 0.06);
+  --blur-header: blur(128px);
+  --app-focused-transition: background-color var(--app-focused-duration) ease-in-out, backdrop-filter 0s linear var(--app-focused-duration);
+  
+}
+
+:root {
+  --theme-version: "02.04.09 Discontinued "
+}
+
+[id^="Rounded"] .bd-addon-header .bd-version:before {
+  content: "version " var(--theme-version)
+}
+
+[id^="Rounded"] .bd-addon-header .bd-version {
+  font-size: 0
+}
+
+[id^="Rounded"] .bd-addon-header .bd-version:before {
+  font-size: 14px
+}
+
+.content-1gYQeQ {
+    border-radius: 10vh;
+}
+
+.container-32HW5s {
+    border-radius: 10vh;
+
+}
+
+.button-12Fmur {
+    border-radius: 10vh;
+}
+.folderIconWrapper-1oRIZr {
+    border-radius: 16vh;
+}
+
+.side-2ur1Qk .item-3XjbnG {
+    border-radius: 10vh;
+}
+
+.button-f2h6uQ {
+    border-radius: 10vh;
+}
+
+.folder-241Joy {
+    background-color: transparent;
+}
+
+.container-2oNtJn {
+    border-radius: 10vh;
+}
+
+.item-2idW98 {
+    border-radius: 10vh;
+}
+
+.notDetected-M3Ghh2, .nowPlaying-3UpuKc {
+    border-radius: 10vh;
+}
+
+.backgroundOptionRing-1vvQ0C {
+    border: 3px solid var(--brand-500);
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: 2vh;
+}
+
+.backgroundOptionInner-SSz19O {
+    border-radius: 10vh;
+}
+
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    border-radius: 10vh;
+}
+
+
+
+
+.topPill-3DJJNV .item-3XjbnG {
+    border-radius: 10vh;
+}
+
+.platform-win .sidebar-1tnWFu {
+    border-radius: 2.3vh 0 0;
+}
+
+.layout-1qmrhw {
+    border-radius: 10vh;
+}
+
+.searchBar-jGtisZ {
+    border-radius: 10vh;
+}
+
+.bd-button {
+    border-radius: 10vh;
+}
+
+.bd-search-wrapper {
+    border-radius: 10vh;
+}
+
+.bd-addon-list .bd-addon-card {
+    border-radius: 4vh;
+}
+
+.bd-controls>.bd-addon-button:first-of-type {
+    border-radius: 10vh 0 0 10vh;
+}
+
+.bd-controls>.bd-addon-button:last-of-type {
+    border-radius: 0 10vh 10vh 0;
+}
+
+.cardWrapper-1bSePP {
+    border-radius: 10vh;
+}
+
+.guild-2Fq4I5 {
+    border-radius: 3vh;
+}
+
+.background-Gjdjzm {
+    border-radius: 10vh;
+}
+
+.card-16VQ8C {
+    border-radius: 4vh;
+}
+
+.embed-hKpSrO {
+    border-radius: 3vh;
+}
+
+.hero-1gKM4P {
+    border-radius: 4vh;
+}
+
+.ctaWrapper-4Js5Q6 {
+    border-radius: 4vh;
+}
+
+.feature-2IUcBI {
+    border-radius: 5vh;
+}
+
+.root-g14mjS {
+    border-radius: 4vh;
+}
+
+.sourceThumbnail-ERDcZE {
+    border-radius: 24px;
+}
+
+.menu-1QACrS {
+    border-radius: 3vh;
+}
+
+.quickSelectPopout-2F0PXw {
+    border-radius: 3vh;
+}
+
+.container-2ebMPP {
+    border-radius: 3vh;
+}
+
+.itemCard-3Etziu {
+    border-radius: 3vh;
+}
+
+.item-1Odj {
+    border-radius: 10vh;
+}
+
+.pictureInPictureWindow-3ms5Zy{
+    border-radius: 3vh;
+}
+
+.tile-2TcwiO {
+    border-radius: 3vh;
+}
+
+.noiseCancellationPopout-2-e5Xz {
+    border-radius: 3vh;
+}
+
+.scrollableContainer-15eg7h {
+    border-radius: 3vh;
+}
+
+.overlayBackground-1KgwVi {
+    border-radius: 3vh;
+}
+
+.connectedAccountContainer-3aLMHJ {
+    border-radius: 3vh;
+}
+
+.listRow-Y5zoF8 {
+    border-radius: 2vh;
+}
+
+.iconActiveMedium-27_R5B {
+    border-radius: 50%;
+}
+
+.item-1OdjEX {
+    border-radius: 10vh;
+}
+
+.listItemContents-2n2Uy9 {
+    border-radius: 10vh;
+}
+
+.imageWrapper-oMkQl4 {
+    border-radius: 2.4vh;
+}
+
+.navNext-2Fgwwk {
+    margin-right: 0;
+    background-color: #353535;
+}
+
+.navPrev-3Oe07S {
+    margin-left: 0;
+    background-color: #353535;
+}
+
+
+.wrapper-2bCXfR .originalLink-Azwuo9{
+    border-radius: 0;
+}
+
+.messages-23can0 {
+    border-radius: 3vh;
+}
+
+.contentWrapper-3vHNP2 {
+    border-radius: 3vh;
+}
+
+.header-1zd7se {
+    border-radius: 4vh 4vh 0 0;
+}
+
+.footer-31IekZ {
+    border-radius: 0 0 4vh 4vh;
+}
+
+.membershipDialog-2wAdpQ {
+    border-radius: 3vh;
+}
+
+.videoWrapper-1_H3B3 {
+    border-radius: 3vh;
+}
+
+.option-1QI4c9{
+    border-radius: 2vh;
+}
+
+.bd-select{
+    border-radius: 2vh 2vh 0 0;
+}
+
+.bd-select .bd-select-options
+{
+    border-radius: 0 0 2vh 2vh;
+}
+
+.select-1Ia3hD{
+    border-radius: 2vh;
+}
+
+.popout-1KHNAq{
+    border-radius: 2vh;
+}
+
+.container-3jbRo5{
+    border-radius: 10vh;
+}
+
+.container-30qY7E{
+    border-radius: 10vh;
+}
+
+.statusTag-2MQURR{
+    border-radius: 10vh;
+}
+
+.pageButtonPrev-3q9rh8 {
+    border-radius: 3vh 0 0 3vh;
+}
+
+.pageButtonNext-2_bbdk {
+    border-radius: 0 3vh 3vh 0;
+}
+
+.promotionCard-mo7ClH{
+    border-radius: 10vh;
+}
+
+.promotionIcon-1YW8yh{
+    border-radius: 50%;
+}
+
+.connectContainer-1hylYM {
+    border-radius: 3vh;
+}
+
+.connection-YOVI9j{
+    border-radius: 3vh;
+}
+
+.connectionHeader-Ixbb1s{
+    border-radius: 3vh 3vh 0 0;
+}
+
+.container-QlmnKJ{
+    border-radius: 6vh;
+}
+
+.integration-1qC-fv{
+    border-radius: 10vh;
+}
+
+.radioBar-3w9XY-{
+    border-radius: 10vh;
+}
+
+.categoryFade-3RRG67, .categoryFadeBlurple-1l49_Q{
+    border-radius: 3vh;
+}
+.gif-2kTiNB{
+    border-radius: 3vh;
+}
+
+.sticker-H2HhJD{
+    border-radius: 1vh;
+}
+
+.wrapper-2vIMkT{
+    border-radius: 10vh;
+}
+
+.messagesPopoutWrap-3zryHW{
+    border-radius: 3vh;
+}
+
+.container-18GwIk{
+    border-radius: 3vh;
+}
+
+.cozy-VmLDNB .timestamp-p1Df1m .edited-1v5nT8{
+    color: rgb(255, 0, 0);
+}
+
+.cozy-VmLDNB .timestamp-p1Df1m {
+    color: rgba(234, 234, 234, 0.761);
+}
+
+.textContainer-36wgKK{
+    border-radius: 3vh 3vh 0 0;
+}
+
+.footer-GXWBBp{
+    border-radius: 0 0 3vh 3vh;
+}
+
+.languageSelector-2e1IuO{
+    border-radius: 3vh;
+}
+
+.input-2g-os5{
+    border-radius: 3vh;
+}
+
+.inviteRow-3vmB7i{
+    border-radius: 3vh;
+}
+
+.colorPickerCustom-1swUKF{
+    border-radius: 3vh;
+}
+
+.previewContainer-1GxmBJ{
+    border-radius: 3vh;
+}
+
+.previewContainer-1xQAsw{
+    border-radius: 4vh;
+}
+
+.roleRow-230vCm{
+    border-radius: 10vh;
+}
+
+.role-2TIOKu{
+    border-radius: 10vh;
+}
+
+.messageInputContainer-2rGDH8{
+    border-radius: 10vh;
+}
+
+.userProfileOuter-1K_BYU{
+    border-radius: 2.5vh;
+}
+
+.userPopoutInner-1hXSeY:before{
+    border-radius: 2.5vh;
+}
+
+
+.image-36HiZc, .modal-3Crloo {
+    border-radius: 0;
+}
+
+.peopleListItem-u6dGxF.active-2UF8Zh, .peopleListItem-u6dGxF:hover {
+    border-radius: 10vh;
+}
+
+.withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {
+    border-radius: 10vh;
+}
+
+.container-2McqkF {
+    border-radius: 3vh;
+}
+
+.auto-2K3UW5::-webkit-scrollbar-thumb, .auto-2K3UW5::-webkit-scrollbar-track {
+    border-radius: 16vh;
+}
+
+.folder-241Joy.hover-3m7-WT {
+    background-color: transparent;
+}
+
+.listItem-3SmSlK{
+    border-radius: 50%;
+}
+.wrapper-28eC3z{
+    border-radius: 50%;
+}
+
+.mouse-mode.full-motion .message-2CShn3:hover {
+    border-radius: 0 20px 20px 0;
+}
+
+.mentioned-Tre-dv {
+    border-radius: 0 20px 20px 0;
+}
+
+.unreadPill-3nEWYM {
+    border-radius: 0 4vh 4vh 0;
+}
+
+.repliedMessage-3Z6XBG:before {
+    --spine-width: 4px; 
+}
+
+.username-h_Y3Us {
+    color: white;
+}
+
+.searchResult-O9NDji {
+    border-radius: 5vh;
+}
+
+.button-cfOvv- {
+    border-radius: 5vh;
+}
+
+.bar-1Bhnl9 {
+    border-radius: 4vh;
+}
+
+.background-3d_SjE {
+    border-radius: 2vh;
+}
+
+.vs-dark{
+    top: 10px;
+    border-radius: 1vh
+}
+
+.overflow-guard{
+    border-radius: 1vh
+}
+
+.bd-toast {
+    border-radius: 2vh;
+}
+
+.content-1Tgc42 {
+    border-radius: 4vh;
+}
+
+.mainCard-3KBsBI {
+    border-radius: 3vh;
+    background-color: var(--background-secondary);
+
+}
+
+.reaction-102jx9 {
+    border-radius: 8vh;
+}
+
+.panels-3wFtMD {
+    border-radius: 2vh 2vh 0 0;
+}
+
+.icon-39rdLt {
+    border-radius: 3vh;
+}
+
+.upsellTooltipWrapper-1wqikQ {
+    border-radius: 3vh;
+}
+
+.container-3a5mk- {
+    border-radius: 2vh;
+}
+
+.label-3TDpbn {
+    border-radius: 10vh;
+}
+
+.container-1SX9VC {
+    border-radius: 10vh;
+}
+
+.qwert-toast {
+    border-radius: 3vh;
+}
+
+.wrapper-1HIH0j {
+    border-radius: 3vh;
+}
+
+.iconActiveLarge-ac-EDu {
+    border-radius: 50%
+}
+
+.wrapper-1FP9YQ {
+    border-radius: 2vh;
+}
+
+.audioControls-3fmemK {
+    border-radius: 3vh;
+}
+
+.baseShapeRound-3epLEv .element.style {
+    border-radius: 3vh;
+}
+
+.px-MnE_OR.botTag-7aX5WZ {
+    border-radius: 3vh;
+}
+
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] .button-Jt-tIg {
+    font-size: 10px;
+}
+
+.childWrapper-1j_1ub {
+    background-color: transparent;
+}
+
+#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+    border-radius: 50vh;
+}
+
+.channelTextArea-1FufC0 {
+    margin-bottom: 6px;
+}
+
+.base-3bcbY3 {
+    position: absolute;
+    bottom: 10px;
+    left: 62px;
+    right: 12px;
+    height: 5px;
+    font-size: 10px;
+}
+
+.channelTextArea-1FufC0 {
+    margin-bottom: 6px;
+}
+
+.cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
+    background-color: #1f1f1f;
+    display: inline-block;
+    max-width: 650px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.markup-eYLPri blockquote, .markup-eYLPri pre {
+    max-width: 100%;
+}
+
+.quickswitcher-pKcM9U {
+    border-radius: 3vh;
+    background-color: var(--background-primary);
+}
+
+.input-3r5zZY {
+    border-radius: 10vh;
+    background-color: var(--background-tertiary);
+}
+
+
+.theme-dark .autocomplete-3NRXG8 {
+    background-color: var(--background-secondary);
+}
+
+.autocomplete-3jLKbj {
+    border-radius: 2vh;
+}
+
+.bd-switch input:checked+.bd-switch-body {
+    --switch-color: rgb(3, 209, 255);
+}
+.bd-switch-body {
+    --switch-color: transparent;
+}
+
+.bd-switch input {
+    border: 2px solid #04AA6D;
+    padding: 2px;
+}
+
+.checked-25WXMf{
+    background-color: #60cdff !important;
+    border: 1px solid black;
+}
+
+.container-1zDvAE{
+    background-color: rgb(31, 31, 31) !important;
+    padding: 20px!important; 
+    margin: 2px;
+    border-radius: 2vh;
+}
+
+.sidebarRegion-1VBisG {
+    width: var(--sidebar-width);
+    flex: 1 0 var(--sidebar-width);
+    top: 0;
+    box-sizing: border-box;
+    position: relative
+}
+
+.sidebarRegion-1VBisG:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    backdrop-filter: var(--blur-sidebar);
+    transition: var(--app-focused-transition)
+}
+
+[class^=contentColumn][class*=contentColumnDefault],
+[class^=contentColumn][class*=contentColumnMinimal] {
+    z-index: 0
+}
+
+.contentColumn-1C7as6 {
+    max-width: 100%
+}
+
+.contentColumnDefault-3eyv5o {
+    position: relative;
+    z-index: 0;
+    padding-top: var(--settings-top)
+}
+
+.contentRegion-3HkfJJ {
+    flex: 1 1 90%;
+    padding-top: 20px;
+}
+
+.dividerDefault-3C2-ws {
+    display: none;
+}
+
+.theme-dark .container-3wLKDe {
+    background-color: var(--background-primary);
+}
+
+.previewMessage-2g_aBv {
+    border-radius: 3vh;
+}
+
+.textBadge-1fdDPJ{
+    border-radius: 3vh !important; 
+}
+
+.theme-dark .popoutList-10IFAa {
+    background: var(--background-secondary-alt);
+}
+
+.lookFilled-yCfaCM.colorPrimary-2AuQVo {
+    color: var(--white-500);
+    background-color: var(--background-secondary-alt);
+}
+
+.mention {
+    border-radius: 2vh;
+    padding: 2px 4px;
+    text-align: center;
+}
+
+.theme-dark .wrapper-1ZcZW- {
+    background: #6a7de98f;
+    color: var(--brand-experiment-200);
+}
+
+.container-20TyK0 {
+    border-radius: 3vh;
+}
+
+.bannerSVGWrapper-qc0szY {
+    z-index: 1;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.popoutBannerPremium-2RvDNZ {
+    height: 120px;
+    min-height: 120px;
+}
+
+.accountAddInner-2y9WLL {
+    border-radius: 3vh;
+}
+
+.inner-1lPVFp {
+    border-radius: 3vh
+}
+
+.root-2s1-ri>:last-child {
+    border-bottom-left-radius: 4vh;
+    border-bottom-right-radius: 4vh;
+}
+
+
+.bannerSVGWrapper-qc0szY {
+    z-index: 1;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+
+foreignObject {
+    display: block;
+    overflow: hidden;
+}
+
+.topSection-1Khgkv>header>.bannerSVGWrapper-qc0szY[viewBox*="212"] {
+    margin-bottom: -40px;
+}
+.topSection-1Khgkv>header>.bannerSVGWrapper-qc0szY {
+    height: 100%;
+    max-width: 600px;
+    min-width: 600px !important;
+    z-index: 0;
+    overflow: visible;
+    position: relative;
+}
+
+[class^="userPopoutInner"]>.bannerSVGWrapper-qc0szY foreignObject, .topSection-1Khgkv>header>.bannerSVGWrapper-qc0szY foreignobject {
+    mask: none;
+}
+[class*="WithBanner"] .bannerSVGWrapper-qc0szY foreignObject {
+    transform: translateY(-8px);
+    border-radius: 3vh;
+}
+
+.topSection-1Khgkv {
+    margin-bottom: 60px;
+    z-index: 1;
+}
+
+.profileBannerPremium-3xIFwS, .profileBannerPremium-3xIFwS:after {
+    height: 200px !important;
+    top: 10px !important;
+    border-radius: 3vh !important;
+}
+
+.profileBannerPremium-3xIFwS {
+    height: 212px;
+    min-height: 212px;
+}
+.bannerSVGWrapper-qc0szY {
+    z-index: 1;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+
+foreignObject {
+    display: block;
+    overflow: hidden;
+}
+
+.topSection-1Khgkv>header>.bannerSVGWrapper-qc0szY[viewBox*="212"] {
+    margin-bottom: -40px;
+}
+.topSection-1Khgkv>header>.bannerSVGWrapper-qc0szY {
+    height: 100%;
+    max-width: 600px;
+    min-width: 600px !important;
+    z-index: 0;
+    overflow: visible;
+    position: relative;
+}
+
+[class^="userPopoutInner"]>.bannerSVGWrapper-qc0szY foreignObject, .topSection-1Khgkv>header>.bannerSVGWrapper-qc0szY foreignobject {
+    mask: none;
+}
+[class*="WithBanner"] .bannerSVGWrapper-qc0szY foreignObject {
+    transform: translateY(-8px);
+    border-radius: 3vh;
+}
+
+.topSection-1Khgkv {
+    margin-bottom: 60px;
+    z-index: 1;
+}
+
+.profileBannerPremium-3xIFwS {
+    height: 212px;
+    min-height: 212px;
+}
+
+.theme-dark .spoilerText-27bIiA.hidden-3B-Rum {
+    background-color: #444444;
+}
+
+.invite-3uuHYQ {
+    border-radius: 3vh;
+}
+
+.artwork-28Cmnt {
+    border-radius: 2vh;
+}
+
+.coverImageWrapper-2wx5q1 {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    opacity: .4;
+    border-radius: 0 5px 5px 0;
+    overflow: hidden;
+}
+
+
+.toolbar-3_r2xA>.iconWrapper-2awDjA>svg[style]{
+  display: none !important; 
+}
+
+.buttons-uaqb-5>.button-f2h6uQ>:not(.translateButton-DhP9x8) {
+  display: none;
+}
+
+
+
+
+.message-2CShn3.selected-2LX7Jy, .mouse-mode.full-motion .message-2CShn3:hover {
+  background-color: var(--background-message-hover);
+}
+.message-2CShn3:hover:before {
+  background-color: rgba(255, 255, 255, .01);
+}
+
+.messageListItem-ZZ7v6g:hover .timestamp-p1Df1m, .messageListItem-ZZ7v6g:hover .timestampInline-_lS3aK {
+  opacity: 1;
+}
+
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK) {
+    opacity: 0.2;
+    transition: opacity .175s ease;
+    transition-property: opacity;
+    transition-duration: 0.175s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.bd-toast.icon {
+  padding-left: 30px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
+  margin-right: auto;
+  opacity: 0.4;
+}
+.bd-toast {
+  border-radius: 2vh;
+  margin-right: auto;
+  opacity: 0.4;
+}
+
+
+.qwert-toast {
+  border-radius: 3vh !important;
+}
+
+.qwert-toast-bar {
+  border-radius: 3vh !important;
+}
+
+.compact-2Nkcau.wrapper-30-Nkg, .cozy-VmLDNB.wrapper-30-Nkg {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
+  border-radius: 15vh !important;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-2g-os5 {
+  border-radius: 5vh;
+}
+
+.searchBox-pyIJJj {
+  border-radius: 5vh;
+}
+
+.card-2TuZPZ {
+  border-radius: 25px;
+}
+
+.sidebar-1tnWFu {
+  background: var(--background-tertiary);
+}
+
+.theme-dark .pageWrapper-2PwDoS{
+  border-radius: 3vh 0 0 0;
+}
+.headerImage-2D5D-v {
+  border-radius: 25px;
+}
+
+.scroller-WSmht3 {
+  background-color: var(--background-tertiary);
+}
+
+.thin-31rlnD, .thin-31rlnD.fade-1R6FHN:hover, .thin-31rlnD.scrolling-20Of9p {
+  scrollbar-color: var(--scrollbar-thin-thumb) var(--scrollbar-thin-track);
+}
+
+.privateChannels-oVe7HL {
+  background-color: var(--background-tertiary);
+}
+
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+  background-color: var(--background-secondary);
+}
+
+.chat-2ZfjoI{
+  border-radius: 25px 0 0 0;
+}.toolbar-3_r2xA>.iconWrapper-2awDjA>svg[style]{
+    display: none !important; 
+  }
+  
+  .buttons-uaqb-5>.button-f2h6uQ>:not(.translateButton-DhP9x8) {
+    display: none;
+  }
+  
+  
+  
+  
+  .message-2CShn3.selected-2LX7Jy, .mouse-mode.full-motion .message-2CShn3:hover {
+    background-color: var(--background-message-hover);
+  }
+  .message-2CShn3:hover:before {
+    background-color: rgba(255, 255, 255, .01);
+  }
+  
+  .messageListItem-ZZ7v6g:hover .timestamp-p1Df1m, .messageListItem-ZZ7v6g:hover .timestampInline-_lS3aK {
+    opacity: 1;
+  }
+  
+  .timestamp-p1Df1m:not(.timestampInline-_lS3aK) {
+      opacity: 0.2;
+      transition: opacity .175s ease;
+      transition-property: opacity;
+      transition-duration: 0.175s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+  }
+  
+  .bd-toast.icon {
+    padding-left: 30px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 6px 50%;
+    margin-right: auto;
+    opacity: 0.4;
+  }
+  .bd-toast {
+    border-radius: 2vh;
+    margin-right: auto;
+    opacity: 0.4;
+  }
+  
+  
+  .qwert-toast {
+    border-radius: 3vh !important;
+  }
+  
+  .qwert-toast-bar {
+    border-radius: 3vh !important;
+  }
+  
+  .compact-2Nkcau.wrapper-30-Nkg, .cozy-VmLDNB.wrapper-30-Nkg {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  
+  @font-face{
+    font-family: "LogoFont";
+    src: url("https://speakmore.olayzen.com/fonts/DXLBaB-KSCpc-EUC-H.ttf") format("truetype");
+  }
+  
+  .cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
+    border-radius: 15vh !important;
+  }
+  
+  body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .input-2g-os5 {
+    border-radius: 5vh;
+  }
+  
+  .searchBox-pyIJJj {
+    border-radius: 5vh;
+  }
+  
+  .card-2TuZPZ {
+    border-radius: 25px;
+  }
+  
+  .sidebar-1tnWFu {
+    background: var(--background-tertiary);
+  }
+  
+  .theme-dark .pageWrapper-2PwDoS{
+    border-radius: 3vh 0 0 0;
+  }
+  .headerImage-2D5D-v {
+    border-radius: 25px;
+  }
+  
+  .scroller-WSmht3 {
+    background-color: var(--background-tertiary);
+  }
+  
+  .thin-31rlnD, .thin-31rlnD.fade-1R6FHN:hover, .thin-31rlnD.scrolling-20Of9p {
+    scrollbar-color: var(--scrollbar-thin-thumb) var(--scrollbar-thin-track);
+  }
+  
+  .privateChannels-oVe7HL {
+    background-color: var(--background-tertiary);
+  }
+  
+  .searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    background-color: var(--background-secondary);
+  }
+  
+  .chat-2ZfjoI{
+    border-radius: 25px 0 0 0;
+  }
+
+.toolbar-3_r2xA>.iconWrapper-2awDjA>svg[style]{
+  display: none !important; 
+}
+
+.buttons-uaqb-5>.button-f2h6uQ>:not(.translateButton-DhP9x8) {
+  display: none;
+}
+
+
+
+
+.message-2CShn3.selected-2LX7Jy, .mouse-mode.full-motion .message-2CShn3:hover {
+  background-color: var(--background-message-hover);
+}
+.message-2CShn3:hover:before {
+  background-color: rgba(255, 255, 255, .01);
+}
+
+.messageListItem-ZZ7v6g:hover .timestamp-p1Df1m, .messageListItem-ZZ7v6g:hover .timestampInline-_lS3aK {
+  opacity: 1;
+}
+
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK) {
+    opacity: 0.2;
+    transition: opacity .175s ease;
+    transition-property: opacity;
+    transition-duration: 0.175s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.bd-toast.icon {
+  padding-left: 30px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
+  margin-right: auto;
+  opacity: 0.4;
+}
+.bd-toast {
+  border-radius: 2vh;
+  margin-right: auto;
+  opacity: 0.4;
+}
+
+
+.qwert-toast {
+  border-radius: 3vh !important;
+}
+
+.qwert-toast-bar {
+  border-radius: 3vh !important;
+}
+
+.compact-2Nkcau.wrapper-30-Nkg, .cozy-VmLDNB.wrapper-30-Nkg {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+@font-face{
+  font-family: "LogoFont";
+  src: url("https://speakmore.olayzen.com/fonts/DXLBaB-KSCpc-EUC-H.ttf") format("truetype");
+}
+
+.cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
+  border-radius: 15vh !important;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-2g-os5 {
+  border-radius: 5vh;
+}
+
+.searchBox-pyIJJj {
+  border-radius: 5vh;
+}
+
+.card-2TuZPZ {
+  border-radius: 25px;
+}
+
+.sidebar-1tnWFu {
+  background: var(--background-tertiary);
+}
+
+.theme-dark .pageWrapper-2PwDoS{
+  border-radius: 3vh 0 0 0;
+}
+.headerImage-2D5D-v {
+  border-radius: 25px;
+}
+
+.scroller-WSmht3 {
+  background-color: var(--background-tertiary);
+}
+
+.thin-31rlnD, .thin-31rlnD.fade-1R6FHN:hover, .thin-31rlnD.scrolling-20Of9p {
+  scrollbar-color: var(--scrollbar-thin-thumb) var(--scrollbar-thin-track);
+}
+
+.privateChannels-oVe7HL {
+  background-color: var(--background-tertiary);
+}
+
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+  background-color: var(--background-secondary);
+}
+
+.chat-2ZfjoI{
+  border-radius: 25px 0 0 0;
+}
+
+.container-2cd8Mz, .inviteToolbar-2k2nqz {
+    border-radius: 25px 0 0 0;
+}
+
+
+
+.contentRegion-3HkfJJ{
+  border-radius: 20vh;
+}
+
+.discriminator-2m-MqL{
+  display: none;
+}
+/*
+.usernameRow-1x50RR>.usernameInnerRow-1-STdK>.text-md-normal-304U3g {
+  opacity: 0;
+  transition: opacity .45s ease-in-out;
+  -moz-transition: opacity .45s ease-in-out;
+  -webkit-transition: opacity .45s ease-in-out;
+}
+
+.usernameInnerRow-1-STdK{
+  background-color: var(--background-tertiary);
+  border-radius: 25px;
+}
+
+.sidebarRegionScroller-FXiQOh {
+  background: var(--background-tertiary);
+}
+
+.usernameRow-1x50RR>.usernameInnerRow-1-STdK>.text-md-normal-304U3g:hover {
+  opacity: 1;
+  transition: opacity .45s ease-in-out;
+  -moz-transition: opacity .45s ease-in-out;
+  -webkit-transition: opacity .45s ease-in-out;
+}
+*/
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:not(.button-1EGGcP, .button-f2h6uQ) {
+  background-color: rgba(255, 0, 0, 0.35);
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover:not(.button-1EGGcP, .button-f2h6uQ) {
+  background-color: red;
+}
+
+.panels-3wFtMD {
+  border-radius: 20px 20px 0 0;
+}
+
+.activityItem-1Z9CTr {
+  border-radius: 20px;
+}
+
+
+.container-1NXEtd {
+  background-color: var(--background-tertiary);
+}
+
+.member-48YF_l, .members-3WRCEx {
+  border-radius: 25px 0 0 0;
+  background-color: var(--background-secondary);
+}
+
+.container-2o3qEW {
+  border-radius: 25px 0 0 0;
+  background-color: var(--background-secondary);
+}
+
+.clickable-vvKY2q .header-3OsQeK:hover, .selected-1GtAC5 .header-3OsQeK {
+  border-radius: 25px;
+}
+
+.header-3OsQeK {
+  border-radius: 25px;
+}
+
+.group-LWHoGI {
+  padding: 1px;
+  border-radius: 25px;
+  border-style: solid;
+}
+
+.deny-1GO6vI.selected-3jieYB {
+  border-radius: 25px 0 0 25px;
+}
+
+.deny-1GO6vI {
+  border-radius: 25px 0 0 25px;
+}
+
+.allow-1h61-Z {
+  border-radius: 0 25px 25px 0;
+}
+
+.allow-1h61-Z.selected-3jieYB {
+  border-radius: 0 25px 25px 0;
+}
+
+.item-4m-12I:hover {
+  border-radius: 0px;
+}
+
+.deny-1GO6vI:hover {
+  border-radius: 25px 0 0 25px;
+}
+
+.allow-1h61-Z:hover{
+  border-radius: 0 25px 25px 0;
+}
+
+.slider-32CRPX rect{
+  fill: black;
+}
+
+.control-1fl03- {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.container-2nx-BQ, .input-2XRLou {
+  border-radius: 14px;
+  cursor: pointer;
+}
+.container-2nx-BQ {
+  position: relative;
+  width: 40px;
+  height: 24px;
+}
+
+.slider-32CRPX {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 28px;
+  height: 18px;
+  margin: 3px;
+}
+
+.container-2nx-BQ.checked-25WXMf>svg{
+    height: 19px;
+}
+
+.container-2nx-BQ.checked-25WXMf>svg>rect{
+    height: 17px;
+    width: 17px;
+}
+
+.messageGroupWrapper-1jf_7C {
+    border-radius: 20px;
+}
+
+.background-3d_SjE {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px rgba(0, 0, 0, 0.08) solid;
+}
+.fieldList-in8WkP {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.h5-2RwDNl, .label-2bTGzo, .legend-1TXTJO{
+    color: rgba(255, 255, 255, 0.511);
+}
+
+
+.bd-switch-slider rect{
+    fill: black;
+}
+
+.bd-switch-slider svg{
+    display: none;
+}
+
+.bd-switch input:checked+.bd-switch-body {
+    background-color: #60cdff !important;
+}
+
+.bd-switch input+.bd-switch-body {
+    background-color: #72767d !important;
+}
+
+[class*="WithBanner"] .bannerSVGWrapper-qc0szY foreignObject {
+    border-radius: 20px 20px 0 0 !important;
+    filter: blur(0px);
+}
+
+[class*="WithBanner"] .bannerSVGWrapper-qc0szY foreignobject {
+    transform: translateY(0px);
+}
+
+.userProfileInner-3F03PX:before{
+    filter: blur(10px);
+}
+
+.title-31SJ6t {
+	z-index: 11;
+}
+
+.members-3WRCEx,
+.membersWrap-3NUR2t {
+	border-radius: 20px 0 0 20px !important;
+	min-width: 60px;
+	transition-duration: 500ms;
+	transition-property: box-shadow, min-width, width;
+	width: 60px;
+	z-index: 10;
+}
+
+.members-3WRCEx:hover,
+.membersWrap-3NUR2t:hover {
+	min-width: 240px;
+	width: 240px;
+}
+
+.membersWrap-3NUR2t:hover {
+	box-shadow: 0 0 20px 10px #00000044;
+}
+
+.membersGroup-2eiWxl {
+	height: 0;
+	transition-duration: 500ms;
+	transition-property: height;
+    padding: 0;
+}
+
+.membersGroup-2eiWxl {
+    padding: 24px 8px 0 16px;
+}
+
+.members-3WRCEx:hover .membersGroup-2eiWxl {
+	height: 40px;
+}
+
+.customColorPicker-C_jddW {
+  border-radius: 24px;
+}
+.theme-dark .customColorPicker-C_jddW{
+  background-color: var(--background-secondary);
+}
+
+.slider-32CRPX>svg{
+  display: none;
+}
+
+.text-xs-medium-2LRpEj, .text-xs-normal-3SiVjE {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.sidebarRegionScroller-FXiQOh{
+  background-color: var(--background-tertiary);
+}
+
+.theme-dark .pageWrapper-2PwDoS {
+  background-color: var(--background-primary);
+}
+
+.text-md-medium-2avxhQ, .text-md-normal-304U3g, .userTag-2qPxEZ, .title-338goq {
+    font-weight: bold;
+  }
+  
+  .subtext-2HDqJ7 {
+    color: rgba(255, 255, 255, 0.937);
+  }
+  
+  .closeButton-PCZcma svg {
+    --icon: var(--icon-back);
+    --mask-size: 100%;
+    --size: 24px;
+    width: var(--size);
+    height: var(--size);
+    background-color: var(--interactive-normal);
+    transition: background-color .25s ease;
+    -webkit-mask-size: var(--mask-size);
+    mask-size: var(--mask-size);
+    -webkit-mask-image: var(--icon);
+    mask-image: var(--icon);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+  }
+  
+  
+  .closeButton-PCZcma {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 36px;
+    flex: 0 0 36px;
+    width: 36px;
+    height: 36px;
+    border-radius: 14px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: var(--background-tertiary);
+    border-color: white;
+    cursor: pointer;
+  }
+  
+  
+  .keybind-13vtq8{
+    display: none;
+  }
+  
+  .wrapper-2bCXfR>.imageWrapper-oMkQl4, .embedMedia-1mdWSP{
+    border-radius: 0px;
+  }
+  
+  .bd-addon-list .bd-addon-card {
+    border-radius: 24px;
+  }
+  
+
+.iconWrapper-2awDjA[aria-label="Show User Profile"]{
+    display: none !important;
+}
+
+.description-22_U3B {
+    visibility: hidden;
+    position: relative;
+}
+
+.description-22_U3B:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Pick this option if you are gay";
+}
+
+.video-31SuuY {
+  border-radius: 20px;
+}
+
+.imageWrapper-oMkQl4, .hljs, .container-JMJRDf {
+  border-radius: 16px;
+}
+
+.wrapper-2vIMkT {
+  border-radius: 10vh;
+  border:2px solid rgb(255, 255, 255);
+}
+
+.menu-1QACrS {
+  border:2px solid rgb(255, 255, 255);
+}
+
+.header-11eigE {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  
+}
+
+.emojiPicker-6YCk8a {
+  border-bottom-right-radius: 16px;
+  
+}
+
+.categoryList-2qRrlj {
+  border-bottom-left-radius: 16px;
+}
+
+.contentWrapper-3vHNP2 {
+  border:1px solid rgb(255, 255, 255);
+}
+
+.wrapper-1NNaWG, .contentWrapper-3vHNP2 {
+  background-color: var(--background-primary);
+}
+
+.wrapper-22rqw6 {
+  background-color: var(--background-secondary-alt);
+}
+
+.result-pzZrwj{
+  background-color: transparent !important;
+}
+
+.theme-dark .focused-16Owih:after, .theme-dark .result-pzZrwj:hover:after {
+  -webkit-box-shadow: inset 0 0 0 2px var(--brand-experiment),inset 0 0 0 3px var(--primary-dark-630);
+  box-shadow: inset 0 0 0 2px var(--brand-experiment),inset 0 0 0 3px var(--primary-dark-630);
+
+}
+
+.categoryFade-3RRG67, .categoryFadeBlurple-1l49_Q, .result-pzZrwj:after, .contentWrapper-3vHNP2, .addFriendInputWrapper-kkoSV9, .container-1zDvAE {
+  border-radius: 25px;
+}
+
+.sidebarRegionScroller-FXiQOh::after {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: var(--app-windowbar-height);
+  background-color: var(--background-tertiary);
+  transition: var(--app-focused-transition);
+  backdrop-filter: var(--blur-header);
+  z-index: 3000;
+  border-bottom: var(--background-modifier-accent) 1px solid;
+}
+.sidebarRegionScroller-FXiQOh::after, .sidebarRegionScroller-FXiQOh::before {
+  content: "";
+  display: inline-block;
+  position: fixed;
+}
+
+
+
+/*---------------------------------------*/
+
+
+.contentRegionScroller-2_GT_N .toolsContainer-25FL6V {
+  margin: 0;
+  width: var(--size);
+  height: var(--size);
+  padding: 0;
+}
+
+.toolsContainer-25FL6V {
+  --size: 36px;
+  position: fixed;
+  left: 12px;
+  z-index: 4000;
+  pointer-events: all;
+  -webkit-user-drag: none;
+  -webkit-app-region: none;
+  width: var(--size);
+  height: var(--size);
+  padding: 0;
+  top: calc((var(--app-windowbar-height) - var(--size))/ 2);
+}
+
+.wordmark-2u86JB {
+  display: none;
+}
+
+
+.sidebar-nqHbhN [class*=selected]::after {
+  top: 0;
+  left: 60px;
+  width: auto;
+  height: var(--app-windowbar-height);
+  line-height: var(--app-windowbar-height);
+  font-size: 24px;
+  display: block;
+  position: fixed;
+  z-index: 3003;
+  color: var(--interactive-active);
+  --interactive-active: #fff;
+  font-weight: 700;
+  font-family: var(--font-display);
+  animation: settings-header .4s ease;
+}
+
+.sidebar-nqHbhN [class*=selected][aria-controls=settings-tab]::after {
+  content: "BetterDiscord Settings"
+}
+
+.sidebar-nqHbhN [class*=selected][aria-controls=Emotes-tab]::after {
+  content: "Emotes"
+}
+
+.sidebar-nqHbhN [class*=selected][aria-controls=customcss-tab]::after {
+  content: "Custom CSS"
+}
+
+.sidebar-nqHbhN [class*=selected][aria-controls=plugins-tab]::after {
+  content: "Plugins"
+}
+
+.sidebar-nqHbhN [class*=selected][aria-controls=themes-tab]::after {
+  content: "Themes"
+}
+
+.sidebar-nqHbhN [class*=selected][aria-controls=pluginrepo-tab]::after {
+  content: "Plugin Repository"
+}
+
+.sidebar-nqHbhN [class*=selected][aria-controls=themerepo-tab]::after {
+  content: "Theme Repository"
+}
+.sidebar-nqHbhN [class*=selected][aria-controls=updates-tab]::after {
+  content: "Updates"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]:after {
+  content: "Privacy & Safety"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "隐私与安全"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "隱私 & 安全"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Soukromí a zabezpečení"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Privatliv og sikkerhed"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Privacy en veiligheid"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Confidentialité & Sécurité"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Privatsphäre & Sicherheit"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Απόρρητο & Ασφάλεια"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Adatvédelem és biztonság"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Privacy e sicurezza"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "プライバシー・安全"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "개인정보 보호 및 보안"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Prywatność i bezpieczeństwo"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Privacy & Safety"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Privacidade e segurança"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Конфиденциальность"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Privacy & Safety"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Privacidad y seguridad"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Sekretess & säkerhet"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Gizlilik ve Güvenlik"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Поверителност и безопасност"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Приватність і безпека"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Yksityisyys ja turvallisuus"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Personvern og sikkerhet"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Privatnost i sigurnost"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Confidențialitate și securitate"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Privatumas ir Sauga"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "ความเป็นส่วนตัว และความปลอดภัย"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "Bảo Mật & An Toàn"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls="privacy-&-safety-tab"]::after {
+  content: "गोपनीयता एवं सुरक्षा"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Authorized Apps"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "已授权的APP"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "已授權的應用程式"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Autorizované aplikace"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Autoriserede apps"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Goedgekeurde apps"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Applications autorisées"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Autorisierte Apps"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Εξουσιοδοτημένες εφαρμογές"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Azonosított alkalmazások"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "App autorizzate"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "連携済アプリケーション"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "승인한 앱"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Autoryzowane aplikacje"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Authorized Apps"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Aplicativos autorizados"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Авторизованные приложения"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Authorized Apps"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Aplicaciones autorizadas"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Auktoriserade appar"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Yetkili Uygulamalar"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Оторизирани приложения"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Дозволені програми"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Valtuutetut sovellukset"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Autoriserte apper"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Ovlaštene aplikacije"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Aplicații autorizate"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Autorizuotos Programėlės"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "แอปที่ได้รับอนุญาต"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "Ứng Dụng Được Cho Phép"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=authorized-apps-tab]::after {
+  content: "ऑथराइज़्ड ऐप"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Connections"
+}
+
+html[lang^=zh-] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "连接"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Propojení"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Forbindelser"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Verbindingen"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Connexions"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Verknüpfungen"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Συνδέσεις"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Kapcsolatok"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Collegamenti"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "接続"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "연결"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Połączone konta"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Connections"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Conexões"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Интеграции"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Connections"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Conexiones"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Anslutningar"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Bağlantılar"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Връзки"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "З'єднання"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Yhteydet"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Tilkoblinger"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Veze"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Conexiuni"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Sąsajos"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "การเชื่อมต่อ"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "Kết nối"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=connections-tab]::after {
+  content: "कनेक्शन"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Server Boost"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "服务器助力"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "伺服器加成"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Vylepšení serveru"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Serverboost"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Serverboost"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Boost de serveur"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Server-Boost"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Ενίσχυση διακομιστή"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Szervergyorsítás"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Potenziamento server"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "サーバーブースト"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "서버 부스트"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Ulepszenie serwera"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Server Boost"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Impulso de servidor"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Буст сервера"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Server Boost"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Mejora del servidor"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Serverboost"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Sunucu Takviyesi"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Усилване на сървър"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Бусти сервера"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Palvelimen nostatus"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Server Boost"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Server boost"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Boost pentru server"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Serverio stiprinimas"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "บูสต์เซิร์ฟเวอร์"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "Nâng Cấp Máy Chủ"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=nitro-server-boost-tab]::after {
+  content: "सर्वर बूस्ट"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Billing"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "账单"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "帳單"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Fakturace"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Fakturering"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Facturatie"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Facturation"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Zahlungsabwicklung"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Τιμολόγηση"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Számlázás"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Fatturazione"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "請求"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "청구"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Dane do faktury"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Billing"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Cobrança"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Выставление счетов"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Billing"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Facturación"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Fakturering"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Faturalandırma"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Таксуване"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Виставлення рахунку"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Laskutus"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Fakturering"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Obračun"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Facturare"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Atsiskaitymas"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "การชำระเงิน"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "Thanh toán"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=billing-tab]::after {
+  content: "बिलिंग"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Appearance"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "外观"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "外觀"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Vzhled"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Udseende"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Weergave"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Apparence"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Erscheinungsbild"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Εμφάνιση"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Megjelenés"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Aspetto"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "テーマ"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "디스플레이"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Wygląd"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Appearance"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Aparência"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Внешний вид"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Appearance"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Apariencia"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Utseende"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Görünüm"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Външен вид"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Зовнішній вигляд"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Ulkoasu"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Utseende"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Izgled"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Aspect"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Išvaizda"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "หน้าตา"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "Hiển thị"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=appearance-tab]::after {
+  content: "अपीरंस"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Accessibility"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "可访问性"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "輔助功能"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Dostupnost"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Tilgængelighed"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Toegankelijkheid"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Accessibilité"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Barrierefreiheit"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Προσβασιμότητα"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Kisegítő lehetőségek"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Accessibilità"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "ユーザー補助"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "접근성"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Dostępność"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Accessibility"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Acessibilidade"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Специальные возможности"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Accessibility"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Accesibilidad"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Tillgänglighet"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Erişilebilirlik"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Достъпност"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Доступ"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Helppokäyttöisyys"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Tilgjengelighet"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Pristupačnost"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Accesibilitate"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Pritaikymas neįgaliesiems"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "การเข้าถึง"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "Trợ Năng"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=accessibility-tab]::after {
+  content: "एक्सेसिबिलिटी"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Voice & Video"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "语音和视频"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "語音 & 視訊"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Hlas a video"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Stemme og video"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Spraak en video"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Voix & Vidéo"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Sprach- & Videochat"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Φωνή & Βίντεο"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Hang és videó"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Voce e video"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "音声・ビデオ"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "음성 및 비디오"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Głos i wideo"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Voice & Video"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Voz e vídeo"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Голос и видео"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Voice & Video"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Voz y vídeo"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Röst & video"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Ses ve Görüntü"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Глас и видео"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Голос та відео"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Ääni ja video"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Tale og video"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Glas i video"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Voce și video"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Garsas ir Vaizdas"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "เสียงและวิดีโอ"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "Giọng nói và Video"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls="voice-&-video-tab"]::after {
+  content: "वॉयस और वीडियो"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Text & images"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "文字与图像"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "文字 & 圖片"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Text a obrázky"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Tekst og billeder"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Tekst & afbeeldingen"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Texte & Images"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Text & Bilder"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Κείμενο & εικόνες"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Szöveg és képek"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Testo e immagini"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "テキスト・画像"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "텍스트 및 사진"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Tekst i obrazki"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Text & Images"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Texto e imagens"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Текст и изображения"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Text & Images"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Texto e imágenes"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Text & bilder"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Metin ve Resimler"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Текст и изображения"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Текст та зображення"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Teksti ja kuvat"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Tekst og bilder"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Tekst i slike"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Text și imagini"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Žinutės ir Vaizdai"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "ข้อความและภาพ"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "Văn Bản và Hình Ảnh"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls="text-&-images-tab"]::after {
+  content: "टैक्स्ट और इमेज"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Notifications"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "通知"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "通知"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Oznámení"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Meddelelser"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Meldingen"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Notifications"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Benachrichtigungen"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Ειδοποιήσεις"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Értesítések"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Notifiche"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "通知"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "알림"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Powiadomienia"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Notifications"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Notificações"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Уведомления"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Notifications"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Notificaciones"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Aviseringar"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Bildirimler"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Известия"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Сповіщення"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Ilmoitukset"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Varsler"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Obavijesti"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Notificări"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Pranešimai"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "การแจ้งเตือน"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "Các Thông Báo"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=notifications-tab]::after {
+  content: "नोटिफिकेशन"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Keybinds"
+}
+
+html[lang^=zh-] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "快捷键"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Klávesové zkratky"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Tast-tilknytninger"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Toetsencombinaties"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Raccourcis clavier"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Hotkeys"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Συντομεύσεις"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Gyorsgombok"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Associazioni tasti"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "キー割り当て"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "단축키"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Skróty klawiszowe"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Keybinds"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Atalhos do teclado"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Горячие клавиши"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Keybinds"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Atajos de teclado"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Kortkommandon"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Tuş Atamaları"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Клавишни комбинации"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Гарячі клавіші"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Näppäinkomennot"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Hurtigtaster"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Tipkovnički prečaci"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Scurtături taste"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Spartieji Klavišai"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "ปุ่มลัด"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "Các phím nóng"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=keybinds-tab]::after {
+  content: "कीबाइंड्स"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Language"
+}
+
+html[lang^=zh-] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "语言"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Jazyk"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Sprog"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Taal"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Langue"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Sprache"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Γλώσσα"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Nyelvezet"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Lingua"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "言語"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "언어"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Język"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Language"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Idioma"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Язык"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Language"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Idioma"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Språk"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Dil"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Език"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Мова"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Kieli"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Språk"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Jezik"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Limbă"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Kalba"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "ภาษา"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "Ngôn ngữ"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=language-tab]::after {
+  content: "लैंग्वेज"
+}
+
+html[lang=en-US] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows Settings"
+}
+
+html[lang=en-GB] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows settings"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows 设置"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows 設定"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Nastavení Windows"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows-indstillinger"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows-instellingen"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Paramètres Windows"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows-Einstellungen"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Ρυθμίσεις Windows"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows beállítások"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Impostazioni di Windows"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows設定"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows 설정"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Ustawienia Windowsa"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows Settings"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Config. do Windows"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Настройки Windows"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows Settings"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Ajustes de Windows"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows-inställningar"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows Ayarları"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Настройки на Windows"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Параметри Windows"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows-asetukset"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows-innstillinger"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows postavke"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Setări Windows"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows Valdymo Centras"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "ตั้งค่า Windows"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Cài Đặt Windows"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=windows-tab]::after {
+  content: "Windows सेटिंग"
+}
+
+.sidebar-nqHbhN [class*=selected][aria-controls=macos-tab]::after {
+  content: "macOS" !important
+}
+
+html[lang=en-US] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux Settings"
+}
+
+html[lang=en-GB] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux settings"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux 设置"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux 設定"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Nastavení Linux"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux-indstillinger"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux-instellingen"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Paramètres Linux"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux-Einstellungen"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Ρυθμίσεις Linux"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux beállítások"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Impostazioni di Linux"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linuxの設定"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux 설정"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Ustawienia Linuxa"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux Settings"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Config. do Linux"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Настройки Linux"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux Settings"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Ajustes de Linux"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux-inställningar"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux Ayarları"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Настройки за Linux"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Параметри Linux"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux-asetukset"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux-innstillinger"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux postavke"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Setări Linux"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux nustatymai"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "ตั้งค่า Linux"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Cài Đặt Cho Linux"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=linux-tab]::after {
+  content: "Linux सेटिंग"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Streamer Mode"
+}
+
+html[lang^=zh-] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "主播模式"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Streamovací režim"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Streamer-tilstand"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Streamer-modus"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Mode streamer"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Streamer-Modus"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Λειτουργία ζωντανής ροής"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Közvetítő mód"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Modalità Streamer"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "配信モード"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "방송 모드"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Tryb streamowania"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Streamer Mode"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Modo streamer"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Режим стримера"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Streamer Mode"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Modo Streamer"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Streamerläge"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Yayıncı Modu"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Стрийминг режим"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Режим стрімера"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Striimaustila"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Strømmermodus"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Streamer način rada"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Mod Streamer"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Transliavimo režimas"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "โหมดสตรีม"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "Chế độ streamer"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=streamer-mode-tab]::after {
+  content: "स्ट्रीमर मोड"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Advanced"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "高级设置"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "進階"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Pokročilé"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Avanceret"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Geavanceerd"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Avancés"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Erweitert"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Προχωρημένο"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Fejlett"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Avanzate"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "詳細設定"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "고급"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Zaawansowane"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Advanced"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Avançado"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Расширенные"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Advanced"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Avanzado"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Avancerat"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Gelişmiş"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Разширени"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Додаткові налаштування"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Edistynyt"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Avansert"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Napredno"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Funcții avansate"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Papildomi"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "ขั้นสูง"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "Nâng cao"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=advanced-tab]::after {
+  content: "एडवांस"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Game Activity"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "游戏动态"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "遊戲偵測"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Herní aktivita"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Spilaktivitet"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Game-activiteit"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Activité de jeu"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Spieleaktivität"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Δραστηριότητα παιχνιδιού"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Játék tevékenység"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Attività di gioco"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "ゲームアクティビティ"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "게임 활동"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Aktywność w grze"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Game Activity"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Atividade de jogo"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Игровая активность"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Game Activity"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Actividad de juegos"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Spelaktivitet"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Oyun Etkinliği"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Действие на игра"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Ігрова активність"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Pelitila"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Spillaktivitet"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Aktivnost u igri"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Activitate joc"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Žaidimo Veikla"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "กิจกรรมการเล่นเกม"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "Hoạt động trong game"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=game-activity-tab]::after {
+  content: "गेम एक्टिविटी"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Game Overlay"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "游戏叠加面板"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "遊戲嵌入介面"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Překrytí hry"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Overlay i spil"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Game-overlay"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Overlay en jeu"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Game-Overlay"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Επικάλυψη (overlay) παιχνιδιού"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Játékátfedés"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Overlay di gioco"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "ゲーム オーバーレイ"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "게임 오버레이"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Nakładka gry"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Game Overlay"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Sobreposição de jogo"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Игровой оверлей"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Game Overlay"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Overlay del juego"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Speloverlay"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Oyun Arayüzü"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Наслагване на игра"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Накладання на гру"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Pelin peitetaso"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Overlegg i spill"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Prekrivanje igre"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Overlay joc"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Žaidimo perdanga"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Overlay เกม"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "Lớp phủ trò chơi"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=overlay-tab]::after {
+  content: "गेम ओवरले"
+}
+
+.sidebar-nqHbhN [class*=selected][aria-controls=hypesquad-online-tab]::after {
+  content: "HypeSquad" !important
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=hypesquad-online-tab]::after {
+  content: "Ομάδα Δημοσιότητας HypeSquad" !important
+}
+
+.sidebar-nqHbhN [class*=selected][aria-controls=Experiments-tab]::after {
+  content: "Experiments" !important
+}
+
+.sidebar-nqHbhN [class*=selected][aria-controls=developer-options-tab]::after {
+  content: "Developer Options" !important
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Overview"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "概况"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "概要"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Přehled"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Oversigt"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Overzicht"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Vue d'ensemble"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Übersicht"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Επισκόπηση"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Áttekintés"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Panoramica"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "概要"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "일반"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Przegląd"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Overview"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Visão geral"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Обзор"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Overview"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Vista general"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Översikt"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Genel Görünüm"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Общ преглед"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Огляд"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Yleiskatsaus"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Oversikt"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Pregled"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Prezentare generală"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Peržiūra"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "ภาพรวม"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "Tổng quan"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=overview-tab]::after {
+  content: "ओवरव्यू"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Roles"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "身份组"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "身分組"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Role"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Roller"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Rollen"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Rôles"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Rollen"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Ρόλοι"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Rangok"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Ruoli"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "ロール"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "역할"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Role"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Roles"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Cargos"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Роли"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Roles"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Roles"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Roller"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Roller"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Роли"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Ролі"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Roolit"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Roller"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Uloge"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Roluri"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Rolės"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "บทบาท"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "Vai trò"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=roles-tab]::after {
+  content: "रोल्स"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "表情符号"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "表情符號"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Smajlíci"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Émoji"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emotikon"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "絵文字"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "이모티콘"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Эмодзи"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emojis"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Емотикони"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Емодзі"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Jaustukas"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "อีโมจิ"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "Emoji"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=emoji-tab]::after {
+  content: "इमोजी"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderation"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "管理"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "管理"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Možnosti správce"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderation"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderatie"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Modération"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderation"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Διαχείριση"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderáció"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderazione"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "管理"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "관리"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderacja"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderation"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderação"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Модерация"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderation"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderación"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderering"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderasyon"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Модериране"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Модерація"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Valvonta"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderasjon"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderiranje"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderare"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Moderavimas"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "การคัดกรอง"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "Điều chỉnh"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=moderation-tab]::after {
+  content: "मॉडरेशन"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Audit Log"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "审核日志"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "審核日誌"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Protokol auditu"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Revisionslog"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Audit-logboek"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Logs du serveur"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Audit-Log"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Αρχεία καταγραφής ελέγχου"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Vizsgálati napló"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Registro attività"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "監査ログ"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "감사 로그"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Dziennik zdarzeń"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Audit Log"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Registro de auditoria"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Журнал аудита"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Audit Log"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Registro de auditoría"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Granskningslogg"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Denetim Kaydı"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Запис на одит"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Журнал аудиту"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Valvontaloki"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Revisjonslogg"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Dnevnik aktivnosti"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Jurnalul server-ului"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Veiksmų Žurnalas"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "ตรวจสอบบันทึก"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "Nhật Ký Chỉnh Sửa"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=audit_log-tab]::after {
+  content: "ऑडिट लॉग"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "小工具"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "小工具"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "ウィジェット"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "위젯"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widżet"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Виджет"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Изпълним модул"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Віджет"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Pienoisohjelma"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Modul"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Valdiklis"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "widget"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Công cụ"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=widget-tab]::after {
+  content: "Widget"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Membership Screening"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "成员筛选"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "會員審查"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Prověřování členství"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Screening af medlemmer"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Lidmaatschapscreening"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Gestion des critères de sélection des membres"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Mitgliedschaftsauswahl"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Έλεγχος μελών"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Tagság szűrése"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Verifica dell'iscrizione"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "メンバー・スクリーニング"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "멤버십 심사"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Sprawdzanie członków"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Membership Screening"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Avaliação de Associação"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Отбор участников"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Membership Screening"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Cribado de miembros"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Medlemskapsscreening"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Üye Seçimi"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Проверка на членовете"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Перевірка учасників"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Jäsenseulonta"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Medlemsfiltrering"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Probir članstva"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Verificare membri"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Narystės atranka"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "การคัดกรองสมาชิก"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "Phân Loại Thành Viên"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=member_verification-tab]::after {
+  content: "मेम्बरशिप स्क्रीनिंग"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Members"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "成员"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "成員"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Uživatelé"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Medlemmer"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Leden"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Membres"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Mitglieder"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Μέλη"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Tagok"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Membri"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "メンバー"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "멤버"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Członkowie"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Members"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Membros"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Участники"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Members"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Miembros"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Medlemmar"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Üyeler"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Членове"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Учасники"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Jäsenet"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Medlemmer"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Članovi"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Membri"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Nariai"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "สมาชิก"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "Thành viên"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=members-tab]::after {
+  content: "मेम्बर"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Invites"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "邀请"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "邀請"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Pozvánky"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Invitationer"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Uitnodigingen"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Invitations"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Einladungen"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Προσκλήσεις"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Meghívók"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Inviti"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "招待"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "초대"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Zaproszenia"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Invites"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Convites"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Приглашения"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Invites"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Invitaciones"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Inbjudningar"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Davetler"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Покани"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Запрошення"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Kutsut"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Invitasjoner"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Pozivnice"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Invitații"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Kvietimai"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "คำเชิญ"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "Lời mời"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=instant_invites-tab]::after {
+  content: "इनवाइट"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Bans"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "封锁用户"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "被停權者"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Zákazy"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Udelukkelser"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Verbanningen"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Bannissements"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Gebannte Mitglieder"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Αποκλεισμοί"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Kitiltások"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Ban"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "BANしたユーザー"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "차단"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Bany"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Bans"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Banimentos"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Баны"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Bans"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Baneos"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Bannlysningar"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Yasaklar"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Банове"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Блокування"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Porttikiellot"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Utestengelser"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Banovi"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Interdicții"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Draudimai"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "แบน"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "Chặn"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=bans-tab]::after {
+  content: "बैन"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Permissions"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "权限"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "權限"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Povolení"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Tilladelser"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Machtigingen"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Permissions"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Berechtigungen"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Άδειες"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Jogosultságok"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Permessi"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "権限"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "권한"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Uprawnienia"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Permissions"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Permissões"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Права доступа"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Permissions"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Permisos"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Behörigheter"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "İzinler"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Разрешения"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Дозволи"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Käyttöoikeudet"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Tillatelser"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Dozvole"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Permisiuni"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Teisės"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "การอนุญาต"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "Quyền hạn"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls=PERMISSIONS-tab]::after {
+  content: "परमिशन"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Transport"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "传输"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "傳輸"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Transport"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Transport"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Vervoer"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Transport"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Übertragung"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Μεταφορά δεδομένων"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Átvitel"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Traffico"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "輸送"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "전송"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Przesyłanie"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Transport"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Transporte"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Передача данных"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Transport"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Transporte"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Transport"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Transfer"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Транспорт"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Перемістити"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Tietoliikenne"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Transport"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Prijenos"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Transportă"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Perdavimas"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "เคลื่อนย้าย"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "Vận chuyển"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls*=TRANSPORT] {
+  content: "ट्रांसपोर्ट"
+}
+
+html[lang^=en-] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Outbound"
+}
+
+html[lang=zh-CN] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "上传"
+}
+
+html[lang=zh-TW] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "發出"
+}
+
+html[lang=cs] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Odchozí"
+}
+
+html[lang=da] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Udgående"
+}
+
+html[lang=nl] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Uitgaand"
+}
+
+html[lang=fr] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Sortant"
+}
+
+html[lang=de] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Ausgehend"
+}
+
+html[lang=el] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Εξερχόμενη"
+}
+
+html[lang=hu] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Kimenő"
+}
+
+html[lang=it] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "In uscita"
+}
+
+html[lang=ja] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "アウトバウンド"
+}
+
+html[lang=ko] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "나가는 연결"
+}
+
+html[lang=pl] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Wychodzące"
+}
+
+html[lang=pt-PT] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Outbound"
+}
+
+html[lang=pt-BR] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Saída"
+}
+
+html[lang=ru] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Исходящие"
+}
+
+html[lang=sk] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Outbound"
+}
+
+html[lang=es-ES] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Saliente"
+}
+
+html[lang=sv-SE] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Utgående"
+}
+
+html[lang=tr] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Giden"
+}
+
+html[lang=bg] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Изходящ"
+}
+
+html[lang=uk] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Вихідні"
+}
+
+html[lang=fi] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Lähtevä"
+}
+
+html[lang=no] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Utgående"
+}
+
+html[lang=hr] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Izlazni"
+}
+
+html[lang=ro] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Ieșire"
+}
+
+html[lang=lt] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Išsiunčiamasis"
+}
+
+html[lang=th] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "ขาออก"
+}
+
+html[lang=vi] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "Hướng ra"
+}
+
+html[lang=hi] .sidebar-nqHbhN [class*=selected][aria-controls*=OUTBOUND] {
+  content: "आउटबाउंड"
+}
+
+.sidebar-nqHbhN [class*=selected][aria-label]::after {
+  content: attr(aria-label);
+}
+
+.sidebar-nqHbhN [class*=selected][aria-label]::after {
+  content: attr(aria-label);
+}
+
+.sidebar-nqHbhN [class*=selected][aria-controls=activity-privacy-tab]::after {
+  content: "Activity Privacy"
+}
+
+.sidebar-nqHbhN [class*=selected][aria-controls=friend-requests-tab]::after {
+  content: "Friend Requests"
+}
+
+@keyframes settings-header {
+  0% {
+      opacity: .3;
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px)
+  }
+
+  100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      transform: translateX(0)
+  }
+}
+
+.winButtonClose-3Q8ZH5 {
+  margin-right: calc(var(--frame-gap) * -1);
+}
+
+.winButton-3UMjdg {
+  top: calc((-1 * var(--frame-gap)) + 0px);
+  width: var(--windowcontrol-buttons-width);
+  height: var(--windowcontrol-buttons-height);
+  cursor: default;
+  border-radius: 0;
+  pointer-events: all;
+  -webkit-user-drag: none;
+  -webkit-app-region: no-drag;
+}
+
+.titleBar-1it3bQ, .typeMacOS-3V4xXE.titleBar-1it3bQ, .typeWindows-2-g3UY.titleBar-1it3bQ, html.platform-osx #app-mount .typeMacOS-3V4xXE, html.platform-osx #app-mount .typeWindows-2-g3UY {
+  --frame-gap: 10px;
+  /* height: calc(var(--app-windowbar-height) - var(--frame-gap)); */
+  margin-top: var(--frame-gap);
+  user-select: none;
+  pointer-events: none;
+  background: unset;
+  height: 30px;
+  position: fixed;
+  box-sizing: border-box;
+  left: var(--frame-gap);
+  right: var(--frame-gap);
+  width: calc(100vw - (var(--frame-gap) * 2));
+}
+
+.winButtonClose-3Q8ZH5:hover {
+  color: var(--white-500);
+  background-color: var(--status-danger);
+}
+
+#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+  width: var(--server-size);
+  left: 44%;
+  border-radius: 30vh;
+  transform: translateX(-50%);
+  height: 100%;
+}
+
+
+#app-mount .app-3xd6d0 .base-2jDfDU {
+  flex-direction: column;
+}
+#app-mount .app-3xd6d0 .base-2jDfDU {
+  top: var(--server-container) !important;
+  position: absolute !important;
+  left: 0 !important;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+}
+
+.base-2jDfDU, .chat-2ZfjoI {
+  overflow: visible !important;
+}
+
+.contentColumn-1C7as6 {
+  max-width: 100%;
+}
+.contentColumnDefault-3eyv5o {
+  position: relative;
+  z-index: 0;
+  padding-top: var(--settings-top);
+}
+
+:root {
+  --settings-top: calc(var(--app-windowbar-height) + 32px)
+}
+
+.sidebarRegion-1VBisG {
+  width: var(--sidebar-width);
+  flex: 1 0 var(--sidebar-width);
+  top: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.sidebarRegionScroller-FXiQOh {
+  width: var(--sidebar-width);
+  height: calc(100% - var(--app-windowbar-height));
+}
+.sidebarRegionScroller-FXiQOh {
+  transition: var(--app-focused-transition);
+}
+.sidebarRegionScroller-FXiQOh {
+  z-index: 3003;
+  left: 0;
+  height: calc(100% - var(--app-windowbar-height));
+  margin-top: calc(var(--app-windowbar-height));
+  
+}
+
+.cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
+  border-radius: 25px !important;
+}
+
+
+.platform-win .sidebarRegionScroller-FXiQOh::before {
+  width: calc(100% - 16px - (3 * var(--windowcontrol-buttons-width)));
+}
+.sidebarRegionScroller-FXiQOh::before {
+  height: calc(var(--app-windowbar-height) - 8px);
+  transition: 150ms ease-in-out;
+  box-shadow: none;
+  width: calc(100% - 16px);
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  pointer-events: none;
+  -webkit-app-region: drag;
+}
+.sidebarRegionScroller-FXiQOh::after, .sidebarRegionScroller-FXiQOh::before {
+  content: "";
+  display: inline-block;
+  position: fixed;
+}
+
+
+.platform-win .layer-86YKbF {
+  top: 0;
+  padding-top: 0;
+}
+
+
+:root {
+    --sidebar-width: 270px;
+    --server-title-fontsize: 18px;
+    --chat-side-margin: 24px;
+    --usernamebutton-width: var(--username-button-width, 128px);
+    --nameTag-content: "";
+    --app-windowbar-height: var(--server-container);
+    --server-container: calc(var(--server-size) + (2 * var(--server-outer-margin, 14px)));
+    --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
+}
+
+.sidebarRegionScroller-FXiQOh {
+  width: var(--sidebar-width);
+  height: calc(100% - var(--app-windowbar-height));
+}
+
+.sidebarRegionScroller-FXiQOh {
+  width: var(--sidebar-width);
+  height: calc(100% - var(--app-windowbar-height));
+}
+
+
+.sidebarRegion-1VBisG {
+  width: var(--sidebar-width);
+  flex: 1 0 var(--sidebar-width);
+  height: auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.sidebar-nqHbhN {
+  position: absolute;
+  padding: 22px 0 32px 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sidebarRegion-1VBisG:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  backdrop-filter: var(--blur-sidebar);
+  transition: var(--app-focused-transition);
+}
+
+.platform-osx .standardSidebarView-E9Pc3j, .platform-win .standardSidebarView-E9Pc3j {
+  top: 0;
+}
+
+.container-ZMc96U.themed-Hp1KC_ {
+    border-radius: 25px;
+}
+
+[class^=contentColumn][class*=contentColumnDefault], [class^=contentColumn][class*=contentColumnMinimal] {
+  z-index: 0;
+}
+
+.contentRegion-3HkfJJ {
+  flex: 1 1 100%;
+}
+
+.contentRegion-3HkfJJ {
+  border-radius: 20vh;
+  flex: 1 1 100% !important;
+}
+
+
+.titleBar-1it3bQ, .typeMacOS-3V4xXE.titleBar-1it3bQ, .typeWindows-2-g3UY.titleBar-1it3bQ, html.platform-osx #app-mount .typeMacOS-3V4xXE, html.platform-osx #app-mount .typeWindows-2-g3UY {
+  --frame-gap: -20px !important;
+
+}
+
+#app-mount .guilds-2JjMmN [class*=pill] {
+  top: -36px !important;
+}
+
+#app-mount .guilds-2JjMmN [class*="pill"] span {
+  border-radius: 15px !important;
+}
+
+.section-3G9aLW:only-child {
+  border-radius: 16px;
+}
+
+.theme-dark .inset-SbsSFp {
+  background-color: var(--background-secondary);
+  border-radius: 16px;
+  
+}
+
+.wrapper-2RrXDg {
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-modifier-accent);
+  border: 2px solid white;
+}
+
+.scroller-1bVxF5.thin-31rlnD.scrollerBase-_bVAAt{
+  border: 2px solid white;
+  border-radius: 23px;
+}
+
+
+.section-3G9aLW {
+  position: relative;
+  padding: 12px;
+  background-color: var(--background-secondary);
+  
+}
+
+.theme-dark .keyboardShortcutsModal-2CRmCm {
+  background-color: var(--background-secondary);
+}
+
+.theme-dark .keyboardShortcutsModal-2CRmCm {
+    background-color: var(--background-secondary);
+}
+
+.theme-dark .message-G6O-Wv {
+  background-color: var(--background-primary);
+  border: 2px solid white;
+  border-radius: 25px;
+}
+.sidebarRegionScroller-FXiQOh, .sidebar-1tnWFu{
+  background: linear-gradient(180deg, rgba(39,39,39,1) 0%, rgba(39,39,39,1) 55%, rgb(51, 51, 51) 100%);
+}
+
+
+.sidebarRegionScroller-FXiQOh::after{
+  background: linear-gradient(90deg, rgba(39,39,39,1) 0%, rgba(39,39,39,1) 55%, rgb(51, 51, 51) 100%);
+}
+
+
+.scroller-WSmht3, .privateChannels-oVe7HL, .container-1NXEtdX, .container-1NXEtd ,.layout-1qmrhw{
+  background-color: transparent !important;
+} 
+
+.menu-1QACrS {
+  border: 0;
+}
+
+.platform-win .winButton-3UMjdg {
+  position: relative;
+  top: calc(var(--TB-position-top, 21px) - 1px);
+  right: var(--TB-position-right, 0px);
+  height: var(--TB-height, 18px);
+  width: var(--TB-width, 40px);
+}
+
+.card-PQEqCK {
+  border-radius: 25px;
+}
+
+
+
+.mention.iconMentionText-1_WCtN {
+  padding-left: 0;
+}
+
+.mention {
+  border-radius: 2vh;
+  padding: 2px 0px;
+  text-align: center;
+}
+
+.animatedContainer-2laTjx, .bannerImage-ubW8K- {
+  width: 240px;
+  border-radius: 0 20px 0 0;
+}
+
+.keybind-13vtq8 {
+  display: none !important;
+  position: fixed;
+  top: 45px;
+}
+
+.container-2nx-BQ:after {
+  content: "Off";
+  right: 36px;
+  bottom: -1px;
+  font-size: 14px;
+  color: var(--text-muted);
+  position: relative
+}
+.container-2nx-BQ.checked-25WXMf:after {
+  content: "On";
+  bottom: -1px;
+  right: 36px;
+  font-size: 14px;
+  color: var(--text-muted);
+  position: relative
+}
+
+.container-2nx-BQ{
+  background-color: transparent !important;
+}
+
+.checked-25WXMf {
+  background-color: #60cdff !important;
+  
+}
+.container-1zDvAE {
+  background-color:#2b2b2b !important;
+}
+
+.slider-32CRPX rect {
+  fill:#727272;
+}
+
+.checked-25WXMf>.slider-32CRPX rect {
+  fill: black;
+}
+
+.container-2nx-BQ {
+  position: relative;
+  width: 43px;
+  height: 24px;
+}
+
+.checked-25WXMf>.slider-32CRPX{
+  left: 16px !important;
+  bottom: -3px !important;
+}
+
+.container-2nx-BQ>.slider-32CRPX{
+  bottom: -1px;
+}
+
+.checked-25WXMf{
+  border: 1px transparent solid;
+}
+
+.container-2nx-BQ:not(.checked-25WXMf){
+  border: 1px #727272 solid !important;
+}
+
+.bd-switch input+.bd-switch-body {
+  background-color: #727272 !important;
+}
+
+.bd-switch input:checked+.bd-switch-body {
+  background-color: #60cdff !important;
+}
+
+
+.bd-switch input+.bd-switch-body{
+border: 0px #727272 solid !important;
+}
+
+
+
+
+
+.bd-switch input:checked+.bd-switch-body:after {
+content: "On";
+bottom: -1px;
+right: 36px;
+font-size: 14px;
+color: var(--text-muted);
+position: relative
+}
+
+.bd-switch input+.bd-switch-body:after {
+content: "Off";
+right: 36px;
+bottom: -1px;
+font-size: 14px;
+color: var(--text-muted);
+position: relative
+}
+
+.itemCard-3Etziu {
+border-radius: 25px;
+}
+
+.card-m7VgZ8,.pictureInPictureWindow-3ms5Zy, .feature-2IUcBI,.itemCard-3Etziu,.ctaWrapper-4Js5Q6,.hero-1gKM4P,.overlayTitle-2efoIF,.tooltip-14MtrL,.gif-2kTiNB,.result-pzZrwj,.messages-23can0,.embed-hKpSrO,.option-1QI4c9,.backgroundOptionInner-SSz19O,.backgroundOptionRing-1vvQ0C,.scrollableContainer-15eg7h,.root-g14mjS,.card-16VQ8C,.scroller-1bVxF5.thin-31rlnD.scrollerBase-_bVAAt,.menu-1QACrS,.tile-2TcwiO{
+border-radius: 25px !important;
+}
+
+.theme-dark .notches-2w7UZJ.gray-3wP137 {
+color: var(--background-primary);
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+background-color: #60cdff;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
+background-color: #007db8;
+}
+
+.item-2OyinQ:first-child {
+border-left-width: 1px;
+border-radius: 25px 0 0 25px;
+}
+
+.item-2OyinQ:last-child {
+border-left-width: 1px;
+border-radius: 0 25px 25px 0;
+}
+
+
+
+
+.selectorButton-3fWZ0_ {
+background: #272727;
+}
+
+.border-2Vy6FN.speaking-7QZEkv {
+  border-radius: 25px;
+  box-shadow: inset 0 0 0 2px var(--status-green-600),inset 0 0 0 3px var(--black-500);
+}
+
+.container-3a5mk- {
+border-radius: 2vh;
+border: 2px rgb(255, 255, 255) solid;
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G {
+background: #1f1f1f;
+}
+
+.colorable-3rVGna.red-3T8maV {
+background: rgb(255, 24, 24);
+}
+
+.buttonColor-28DXIe {
+background-color: #1f1f1f;
+color: #fff;
+}
+
+.live-1V2D-f{
+background-color: rgb(255, 24, 24)!important;
+}
+
+.noiseCancellationPopout-2-e5Xz {
+width: 289px !important;
+}
+
+
+.theme-dark .progress-1S-TDF {
+background-color: var(--primary-dark-400);
+}
+.progress-1S-TDF {
+background-color: var(--primary-dark-400);
+}
+
+.theme-dark .notches-2w7UZJ.black-11MaxJ {
+color: var(--primary-dark-800);
+background-color: transparent !important;
+}
+
+:root{
+--status-green-600: #3ee239;
+}
+
+.item-2OyinQ:last-child {
+  border-radius: 0 25px 25px 0;
+}
+
+.item-2OyinQ:first-child {
+  border-radius: 25px 0 0 25px;
+}
+
+
+.mention.iconMentionThread-3eRpNo {
+  padding-left: 0rem;
+}
+
+.input-2g-os5 {
+  border-radius: 20px !important;
+}
+
+.mainCard-3KBsBI {
+  margin-right: 45px;
+}
+
+.container-2qVG6q:hover{
+  background-color: var(--background-secondary-alt);
+}
+
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*="listItem"] .button-Jt-tIg {
+  width: 100%;
+  font-size: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  position: fixed;
+  height: 50% !important;
+  border-radius: 10px !important;
+  padding: 2px;
+}
+
+.channelMention>svg{
+  display: none !important;
+}
+
+.grid-21dB-S, .list-3FIpnh {
+  padding-right: 45px !important;
+}
+
+.item-1BCeuB {
+  border-radius: 20px;
+}
+
+.chat-2ZfjoI.threadSidebarOpen-1LSXvU {
+  border-radius: 0 25px 25px 0;
+}
+
+.container-3XgAHv {
+  border-radius: 25px 0 0 25px;
+}
+
+.resizeHandle-PBRzPC {
+  width: 4px;
+}
+
+.embed-hKpSrO code {
+  background: var(--background-secondary-alt) !important;
+}
+
+.rem-3kT9wc.botTag-7aX5WZ {
+  border-radius: 10px;
+}
+
+.scroller-3X7KbA{
+  overflow: hidden hidden !important;
+}
+
+div[aria-label="Servers"]{
+  overflow: hidden scroll !important;
+}
+
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*="listItem"] .button-Jt-tIg{
+  position: fixed !important;
+} 
+
+.frame-oXWS21{
+  border-radius: 15px;
+  height: 5px;
+  position: fixed !important;
+  top: 11px;
+  right: 13px;
+}
+
+#app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
+  margin: 0px 22px !important;
+}
+
+#app-mount .guilds-2JjMmN [class*=pill] {
+  top: -25px !important;
+}
+
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*="listItem"] .button-Jt-tIg {
+  height: 30% !important;
+}
+
+#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+  width: var(--server-size);
+  left: 61%;
+  height: auto;
+  width: 45px;
+}
+
+.bf-toolbar::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: calc(100% - 15px);
+  position: absolute;
+  z-index: -1;
+  background: var(--background-secondary);
+  pointer-events: initial;
+  left: 0px !important;
+  top: 5px;
+  border-radius: 25px;
+  transform: translate(0,55px);
+  transition: all 200ms ease;
+}
+
+
+.bf-toolbar .format {
+  border-radius: 25px;
+}
+
+#app-mount .guilds-2JjMmN > [data-list-id=guildsnav] {
+  margin-bottom: 130px !important;
+}
+
+.wrapper-1_HaEi {
+  background-color: transparent !important;
+}
+
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub{
+  color: var(--white-500);
+  background-color: var(--background-secondary) !important;
+}
+
+.wrapper-3kah-n:hover .childWrapper-1j_1ub{
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.imageDetails-1t6Zms > * {
+  display: inline-block;
+  margin-right: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.anchor-1MIwyf {
+  color: rgb(152 200 255);
+  text-decoration: var(--link-decoration);
+}
+
+[class*="WithBanner"] .bannerSVGWrapper-qc0szY foreignObject {
+  border-radius: 17px 17px 0 0 !important;
+  filter: blur(0px);
+}
+
+.settingsBanner-2E5fAp::before {
+  bottom: 0;
+  opacity: 1;
+  width: 100%;
+  background-color: inherit !important;
+  background-image: inherit !important;
+  visibility: visible;
+} 
+.settingsBanner-2E5fAp::before
+
+.popoutBannerPremium-3i5EEI.bannerPremium-kkSkPv:before, .profileBannerPremium-KD60EB.bannerPremium-kkSkPv:before, .bannerPremium-86naOf:before {
+  transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  height: calc(100vh - -40px);
+}
+
+.banner-2boKnS:after, .banner-2boKnS:before, .banner-1YaD3N:after, .banner-1YaD3N:before{
+  content: "";
+  position: absolute;
+  top: -160px;
+  padding-bottom: -300px;
+  opacity: .8;
+  left: 0;
+  height: -30px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: scaleX(-1);
+  transform: scaleZ(-1);
+}
+
+.accountProfileCard-lbN7n- {
+  background-color: var(--background-tertiary);
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.settingsBanner-2E5fAp {
+  visibility: hidden;
+} 
+
+.avatar-3mTjvZ {
+  border: 0px solid var(--background-tertiary);
+  background-color: transparent ;
+  position: absolute;
+  top: 76px;
+  left: 16px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.profileCardUsernameRow-1bb6fi{
+  display: none;
+}
+
+
+.winButton-3UMjdg {
+  top: 0;
+  height: 42px !important;
+  width: 48px !important;
+}
+
+#app-mount .guilds-2JjMmN > [data-list-id=guildsnav] {
+  margin-bottom: 140px !important;
+}
+
+[points="11 1.576 6.583 6 11 10.424 10.424 11 6 6.583 1.576 11 1 10.424 5.417 6 1 1.576 1.576 1 6 5.417 10.424 1"] {
+  clip-path: path("m2.589 2.716.057-.07a.5.5 0 0 1 .638-.057l.07.057L8 7.293l4.646-4.647a.5.5 0 0 1 .708.708L8.707 8l4.647 4.646a.5.5 0 0 1 .057.638l-.057.07a.5.5 0 0 1-.638.057l-.07-.057L8 8.707l-4.646 4.647a.5.5 0 0 1-.708-.708L7.293 8 2.646 3.354a.5.5 0 0 1-.057-.638l.057-.07-.057.07Z");
+  stroke: currentColor;
+  stroke-width: 100%;
+  transform: translate(-30%, -25%);
+}
+
+.winButton-3UMjdg > svg > rect[y="1.5"] {
+  rx: 0;
+  ry: 0;
+}
+
+.closeButton-PCZcma {
+  border-radius: 14px;
+  border-width: 0px;
+  border-style: solid;
+}
+
+.themed-2-lozF[aria-label="Profiles"]::after {
+  content: "My Account > Profiles" !important;
+}
+
+.themed-2-lozF[aria-label="Profiles"] {
+  height: 0px;
+  width: 0px;
+  color: transparent !important;
+  background-color: transparent !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.avatar-2e8lTP,.avatarDecoration-34OC0G {
+  position: absolute;
+  left: 43px;
+  margin-top: calc(34px - .125rem);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.contentColumnWide-2CgNjO {
+  max-width: 740px;
+  padding: 100px 10px 80px 40px;
+}
+
+.option-ayUoaq:after {
+  background: transparent !important;
+}
+.option-ayUoaq:hover:after{
+  background: transparent !important;
+}
+
+.option-ayUoaq:after {
+  background: transparent !important;
+}
+.option-ayUoaq:hover:after{
+  background: transparent !important;
+}
+
+.headerBar-1dSpQr{
+  border-radius: 25px 0 0 0 !important;
+}
+
+.applicationStore-2nk7Lo {
+  background-color: transparent;
+}
+
+#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+  width: var(--server-size);
+  left: 48%;
+  height: auto;
+  width: 45px;
+}
+
+#app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
+  margin: 0px 9px !important;
+}
+
+#app-mount .guilds-2JjMmN [class*=pill] {
+  top: -29px !important;
+}
+
+.frame-oXWS21 {
+  border-radius: 15px;
+  height: 5px;
+  position: fixed !important;
+  top: 11px;
+  right: 25px;
+}
+
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*="listItem"] .button-Jt-tIg {
+  width: 100%;
+  font-size: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  position: fixed;
+  height: 50% !important;
+  padding: 2px;
+  border-radius: 10px !important;
+}
+
+.avatar-3mTjvZ {
+  border: 0px solid var(--background-tertiary);
+  background-color: transparent;
+  position: absolute;
+  top: 76px;
+  left: 16px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+.usernameInnerRow-1-STdK{
+  filter: drop-shadow(0px 5px 2px #9b9a9a);
+  margin:  0 6px 6px 0px;
+}
+
+.h5-2RwDNl, .label-2bTGzo, .legend-1TXTJO{
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+}
+
+.text-md-medium-2avxhQ, .text-md-normal-304U3g, .userTag-2qPxEZ, .title-338goq{
+  padding-left: 6px;
+}
+
+.defaultMarginh1-EURXsm, .defaultMarginh2-t7G-2y,.heading-lg-bold-3uwrwG {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: "Tommy-Soft-Regular";
+  font-size: 30px;
+}
+
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: 'Tommy-Soft-Regular';
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+  width: var(--server-size);
+  left: 50%;
+  height: auto;
+  width: 55px;
+}
+
+#app-mount .guilds-2JjMmN [class*="listItem"]:not([class*="listItemWrapper"]) {
+  margin: 0px 14px !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] {
+  top:  -26px !important;
+}
+
+#app-mount .guilds-2JjMmN .svg-2zuE5p, #app-mount .guilds-2JjMmN .wrapper-28eC3z, #app-mount .guilds-2JjMmN .guildsError-b7zR5H, #app-mount .guilds-2JjMmN .placeholderMask-2FHNZU {
+  width: 52px;
+  height: 52px;
+}
+
+.frame-oXWS21 {
+  margin: 0;
+  padding: 0;
+  color: transparent;
+  background-color: transparent;
+  visibility: visible;
+  border-radius: 0px;
+  height: 0% !important;
+  height: 5px;
+  position: absolute;
+  top: -41px;
+  right: 25px;
+}
+
+
+.childWrapper-1j_1ub.button-Jt-tIg:after {
+  content: "";
+  position: absolute;
+  --size: 16px;
+  width: var(--size) !important;
+  height: var(--size) !important;
+  --icon: var(--icon-checklist);
+  --mask-size: 100%;
+  --color: var(--interactive-normal);
+  --interactive-normal: #bdbdbd;
+  transition: background-color .15s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1 !important;
+  -webkit-mask-size: var(--mask-size);
+  mask-size: var(--mask-size);
+  -webkit-mask-image: var(--icon);
+  mask-image: var(--icon);
+  left: 93px;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  color: var(--color);
+  background-color: var(--color);
+  pointer-events: all;
+  top: -26px;
+}
+:root {
+--icon-checklist: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z'/%3E%3C/svg%3E");
+}
+
+.wrapper-3kah-n.innerFrame-8Hg64E .childWrapper-1j_1ub.button-Jt-tIg,
+.wrapper-3kah-n.innerFrame-8Hg64E .childWrapper-1j_1ub.button-Jt-tIg:hover {
+    --offset: 40px;
+    pointer-events: none;
+    font-size: 12px !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    position: fixed;
+    top: var(--offset)
+}
+
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] .wrapper-3kah-n {
+  height: 0% !important;
+}
+
+.chatContent-3KubbW {
+  max-width: calc(100% - 0px);
+}
+
+.membersWrap-3NUR2t {
+  height: 100%;
+  position: relative !important;
+  right: 0px;
+}
+
+.cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
+  max-width: 100% !important;
+}
+
+.info-3pQQBb:after {
+  content: "Rounded - " var(--theme-version);
+  top: 0px;
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--text-muted);
+  position: relative;
+  width: 100%;
+}
+
+.socialLinks-3ywLUf>a[title*="Twitter"]{
+  display: none;
+}
+.socialLinks-3ywLUf>a[title*="Facebook"]{
+  display: none;
+}
+.socialLinks-3ywLUf>a[title*="Instagram"]{
+  display: none;
+}
+.socialLinks-3ywLUf::before{
+  content: "Follow me instead of Discord 😊";
+  color: var(--header-primary);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.mention.iconMention-3WxjBe,.mention.iconMentionThread-3eRpNo{
+  padding-left: 0 !important;
+}
+
+.mention {
+  border-radius: 20px;
+  padding: 3px 7px 3px 7px;
+  margin-left: 2px;
+  text-align: center;
+}
+
+.mention.iconMention-3WxjBe, .mention.iconMentionThread-3eRpNo {
+  padding-left: 7px !important;
+}
+
+.backgroundAvatarsVariant1-kC5G9W,.hero-2rQ_qr,.invite-3uuHYQ,.upsellTooltipWrapper-1wqikQ,.mainCard-3KBsBI,.container-2,.container-2McqkF,.quickSelectPopout-2F0PXw,.container-2ebMPP{
+  border-radius: 20px !important;
+}
+
+
+.backgroundAvatarsVariant1-kC5G9W{
+  width: 800px;
+}
+.header-1zd7se {
+  border-radius: 0;
+}
+
+.theme-dark .quickSelectPopout-2F0PXw {
+  background: var(--background-secondary);
+}
+
+:root {
+  --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+  --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
+  --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
+  --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
+  --badges-everywhere-size: 15px; /*default = 15px*/
+}
+
+.invite-3uuHYQ {
+  border-radius: 20px;
+}
+
+.artwork-28Cmnt {
+  border-radius: 16px;
+}
+
+.selectedBackground-1t6xXq {
+  background-color: var(--background-modifier-selected);
+}
+
+.searchBar-jGtisZ {
+  width: 25px;
 }
