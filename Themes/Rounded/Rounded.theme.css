@@ -4,6 +4,7 @@
 @import url('https://www.olayzen.com/BetterDiscordAddons/Themes/Rounded/Fonts.css');
 @import url('https://www.olayzen.com/BetterDiscordAddons/Themes/Rounded/HideGiftButton.css');
 @import url('https://www.olayzen.com/BetterDiscordAddons/Themes/Rounded/weather.css');
+@import url('https://greenman36.github.io/files/discord-mods/themes/snippets/better-context-menu.css');
 
 
 
@@ -6464,4 +6465,11 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 
 .searchBar-jGtisZ {
   width: 25px;
+}
+
+div#message-delete,.colorDanger-3umuSx, .colorDanger-3umuSx .checkbox-397WsK, .colorDanger-3umuSx .radioSelection-3PDNAQ {
+  color: red;
+}
+.numberBadge-37OJ3S.base-3IDx3L.eyebrow-132Xza.baseShapeRound-3epLEv {
+  color: white;
 }
